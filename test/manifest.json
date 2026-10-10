@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "channel": "test",
+  "published": "2026-10-10T22:49:27Z",
+  "android": {
+    "version": "0.9.2",
+    "build": 61,
+    "minBuild": 0,
+    "notes": "Что нового в 0.9.2:\n• Обновление приходит, даже если основной сервер обновлений заблокирован: xASH сам берёт его с запасных источников.\n• Серверы подписки и ключи, которые не запустятся в xASH, видны сразу: серые, причина по нажатию. Остальные работают как раньше.\n• После обновления приложения серверы проверяются заново до автоподключения.",
+    "files": {
+      "arm64-v8a": {
+        "url": "../builds/0.9.2+61/xash-0.9.2-arm64-v8a.apk",
+        "size": 56237433,
+        "sha256": "0fd96d82d2ded193e03fc4bed93204988fe9e5bb40664e1a9f188a725e10e77a"
+      },
+      "armeabi-v7a": {
+        "url": "../builds/0.9.2+61/xash-0.9.2-armeabi-v7a.apk",
+        "size": 52646427,
+        "sha256": "bafa69b33bb74f8d7f8f2fc3980c794175501c35e9bb84649ec7ce1695d54a00"
+      },
+      "universal": {
+        "url": "../builds/0.9.2+61/xash-0.9.2-universal.apk",
+        "size": 166514980,
+        "sha256": "9d689db5584da89a8dabe02f56f48cb14f89a6e8db95cd7abfbaf6e52309de7e"
+      },
+      "x86_64": {
+        "url": "../builds/0.9.2+61/xash-0.9.2-x86_64.apk",
+        "size": 60083754,
+        "sha256": "01b136b0bdcd1b40a917d7a2a5ef876b8d9001e285be6a7087de060d6d10cabc"
+      }
+    }
+  },
+  "windows-x64": {
+    "version": "0.9.2",
+    "build": 61,
+    "minBuild": 0,
+    "notes": "Что нового в 0.9.2:\n• Обновление приходит, даже если основной сервер обновлений заблокирован: xASH сам берёт его с запасных источников.\n• Серверы подписки и ключи, которые не запустятся в xASH, видны сразу: серые, причина по нажатию. Остальные работают как раньше.\n• После обновления приложения серверы проверяются заново до автоподключения.",
+    "file": {
+      "url": "../builds/0.9.2+61/xash-setup-0.9.2.exe",
+      "size": 19942560,
+      "sha256": "2505c254054b8e8ccddec53cb209d7188dcdc757142f2c4ee3c8899f22329dc5"
+    }
+  },
+  "mirrors": {
+    "version": 1,
+    "sources": [
+      {
+        "id": "bmsk",
+        "manifest": "https://bananamsk.win/"
+      },
+      {
+        "id": "github",
+        "manifest": "https://raw.githubusercontent.com/ahri-X-eng/xash-releases/main/",
+        "files": "https://github.com/ahri-X-eng/xash-releases/releases/download/b{build}/{name}",
+        "redirects": [
+          "release-assets.githubusercontent.com",
+          "objects.githubusercontent.com"
+        ]
+      }
+    ]
+  }
+}
