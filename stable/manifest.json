@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-10-11T12:33:36Z",
+  "published": "2026-10-11T12:40:33Z",
   "android": {
     "version": "0.9.1",
     "build": 60,
@@ -42,12 +42,8 @@
     }
   },
   "mirrors": {
-    "version": 2,
+    "version": 3,
     "sources": [
-      {
-        "id": "nx",
-        "manifest": "https://nx.xash.download/"
-      },
       {
         "id": "bmsk",
         "manifest": "https://bananamsk.win/"
