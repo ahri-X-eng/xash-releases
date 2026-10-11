@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-11T12:40:33Z",
+  "published": "2026-10-11T14:14:01Z",
   "android": {
     "version": "0.9.2",
-    "build": 62,
+    "build": 63,
     "minBuild": 0,
     "notes": "Что нового в 0.9.2:\n• Обновление приходит, даже если основной сервер обновлений заблокирован: xASH сам берёт его с запасных источников.\n• Серверы подписки и ключи, которые не запустятся в xASH, видны сразу: серые, причина по нажатию. Остальные работают как раньше.\n• После обновления приложения серверы проверяются заново до автоподключения.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.2+62/xash-0.9.2-arm64-v8a.apk",
+        "url": "../builds/0.9.2+63/xash-0.9.2-arm64-v8a.apk",
         "size": 56237433,
-        "sha256": "4c0f6a60c4c9fd5da9bd1edb86580624ee1617dcb1d2b8bdd69a83641f6fce45"
+        "sha256": "0d9033409e98607fc844a518cb47cf26feab4ab243218e38d299a32abe87b8be"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.2+62/xash-0.9.2-armeabi-v7a.apk",
+        "url": "../builds/0.9.2+63/xash-0.9.2-armeabi-v7a.apk",
         "size": 52646427,
-        "sha256": "a9c9e9cc3e2c5d1bc9063e8d634e64b5062c3d5a91d1e0887d21210bf6d6ad2e"
+        "sha256": "3a89a2ad60c4febd0944ff41891410a0d56a27a20e384b09d557d6413126a3a1"
       },
       "universal": {
-        "url": "../builds/0.9.2+62/xash-0.9.2-universal.apk",
+        "url": "../builds/0.9.2+63/xash-0.9.2-universal.apk",
         "size": 166514980,
-        "sha256": "f3bfdd498ab1f9f4e66ff9e03b441bd5b23a9d078ed084df013d724e2a79e41d"
+        "sha256": "9bdfecd8eebe2c126a78ebebdcdc800385c4edcffbd89f2efa2b095910413dd8"
       },
       "x86_64": {
-        "url": "../builds/0.9.2+62/xash-0.9.2-x86_64.apk",
+        "url": "../builds/0.9.2+63/xash-0.9.2-x86_64.apk",
         "size": 60083754,
-        "sha256": "380520d8b9d3f5772b54cecf8c560d5f195f5e721f5003da33c975e19b3bab37"
+        "sha256": "b7118e900464112002f6881c176c4fe05883f739d72e0be27a5aeb7c4f9b4faf"
       }
     }
   },
   "windows-x64": {
     "version": "0.9.2",
-    "build": 62,
+    "build": 63,
     "minBuild": 0,
     "notes": "Что нового в 0.9.2:\n• Обновление приходит, даже если основной сервер обновлений заблокирован: xASH сам берёт его с запасных источников.\n• Серверы подписки и ключи, которые не запустятся в xASH, видны сразу: серые, причина по нажатию. Остальные работают как раньше.\n• После обновления приложения серверы проверяются заново до автоподключения.",
     "file": {
-      "url": "../builds/0.9.2+62/xash-setup-0.9.2.exe",
-      "size": 19940149,
-      "sha256": "ce74754d45686add313e66dd9473622099a97915020b00914345f87c44cf233f"
+      "url": "../builds/0.9.2+63/xash-setup-0.9.2.exe",
+      "size": 19934828,
+      "sha256": "4cdaad1080f8dfde80fecac65a9d7ce73784203e701c68631c3cdf06b5bcd1cd"
     }
   },
   "mirrors": {
