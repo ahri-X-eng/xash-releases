@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-12T14:40:47Z",
+  "published": "2026-10-12T19:08:03Z",
   "android": {
-    "version": "0.9.3",
-    "build": 64,
+    "version": "0.9.4",
+    "build": 65,
     "minBuild": 0,
-    "notes": "Что нового в 0.9.3:\n• Если адрес подписки недоступен, xASH берёт её с запасного адреса продавца, а при переезде продавца на новый адрес переходит туда сам.",
+    "notes": "Что нового в 0.9.4:\n• Полоса о новой версии над подписками больше не пропадает после «Позже»: она видна, пока обновление не установлено.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.3+64/xash-0.9.3-arm64-v8a.apk",
-        "size": 56238649,
-        "sha256": "8ec58acf255e12b24bdfe39bda05961acb6404481e7103478336771ecbebd290"
+        "url": "../builds/0.9.4+65/xash-0.9.4-arm64-v8a.apk",
+        "size": 56232025,
+        "sha256": "4ee07653be9872bb8dfd87e9c3954a9a47183ae9ecca175d070fcfe85be88eba"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.3+64/xash-0.9.3-armeabi-v7a.apk",
-        "size": 52680379,
-        "sha256": "208deecef7146a106fa3b2aecdf89bd02f14e5980df11567a0ea9b4861bcf841"
+        "url": "../builds/0.9.4+65/xash-0.9.4-armeabi-v7a.apk",
+        "size": 52640987,
+        "sha256": "c5021e3f00ebc3e9cc13906d2a5365cda124868528a3ba564008eec4626f37b8"
       },
       "universal": {
-        "url": "../builds/0.9.3+64/xash-0.9.3-universal.apk",
-        "size": 166548964,
-        "sha256": "9585ff63adb03fdbc8e5e920f2d16a139b9984d94d46f0c6f189ca0b11996528"
+        "url": "../builds/0.9.4+65/xash-0.9.4-universal.apk",
+        "size": 166493188,
+        "sha256": "40c0fb559a0f48515577359e07f27bec660810126299e686e6f592f674185d6b"
       },
       "x86_64": {
-        "url": "../builds/0.9.3+64/xash-0.9.3-x86_64.apk",
-        "size": 60084970,
-        "sha256": "8c92ae0035dde1fb93b13e6ab13443dd30eb7b7e9bdd9b780c57e6685a203eb9"
+        "url": "../builds/0.9.4+65/xash-0.9.4-x86_64.apk",
+        "size": 60078346,
+        "sha256": "e0bb4cc04744b37a694fdc8ccf2694a9d4551155e08aba30b3996ab2bfd95c79"
       }
     }
   },
   "windows-x64": {
-    "version": "0.9.3",
-    "build": 64,
+    "version": "0.9.4",
+    "build": 65,
     "minBuild": 0,
-    "notes": "Что нового в 0.9.3:\n• Если адрес подписки недоступен, xASH берёт её с запасного адреса продавца, а при переезде продавца на новый адрес переходит туда сам.",
+    "notes": "Что нового в 0.9.4:\n• Полоса о новой версии над подписками больше не пропадает после «Позже»: она видна, пока обновление не установлено.",
     "file": {
-      "url": "../builds/0.9.3+64/xash-setup-0.9.3.exe",
-      "size": 19950777,
-      "sha256": "a23566fa95352bfcc48e1a2c973f7ec3597421a7e0bb47c32a9afd23b2c42d2a"
+      "url": "../builds/0.9.4+65/xash-setup-0.9.4.exe",
+      "size": 19946256,
+      "sha256": "d07829a10add43fb7bc682c924743d62c9f85659cd88c7dcc45fbfc439b203a2"
     }
   },
   "mirrors": {
