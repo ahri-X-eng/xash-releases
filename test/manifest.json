@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-12T19:08:03Z",
+  "published": "2026-10-12T19:33:43Z",
   "android": {
     "version": "0.9.4",
-    "build": 65,
+    "build": 66,
     "minBuild": 0,
     "notes": "Что нового в 0.9.4:\n• Полоса о новой версии над подписками больше не пропадает после «Позже»: она видна, пока обновление не установлено.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.4+65/xash-0.9.4-arm64-v8a.apk",
+        "url": "../builds/0.9.4+66/xash-0.9.4-arm64-v8a.apk",
         "size": 56232025,
-        "sha256": "4ee07653be9872bb8dfd87e9c3954a9a47183ae9ecca175d070fcfe85be88eba"
+        "sha256": "7e3eb7129c2a1faf89d828bc9892b0ea0b9454090f6da5586fce391a95a12d21"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.4+65/xash-0.9.4-armeabi-v7a.apk",
+        "url": "../builds/0.9.4+66/xash-0.9.4-armeabi-v7a.apk",
         "size": 52640987,
-        "sha256": "c5021e3f00ebc3e9cc13906d2a5365cda124868528a3ba564008eec4626f37b8"
+        "sha256": "ff85b8f78774929eb5a4b1745a17f11edfa59c8b8d370066e794870f5f66ff9a"
       },
       "universal": {
-        "url": "../builds/0.9.4+65/xash-0.9.4-universal.apk",
+        "url": "../builds/0.9.4+66/xash-0.9.4-universal.apk",
         "size": 166493188,
-        "sha256": "40c0fb559a0f48515577359e07f27bec660810126299e686e6f592f674185d6b"
+        "sha256": "c8ff85de0d70aa5f432d43ed07fa74115a7b18883cb5c648aff463f98d33c4f2"
       },
       "x86_64": {
-        "url": "../builds/0.9.4+65/xash-0.9.4-x86_64.apk",
+        "url": "../builds/0.9.4+66/xash-0.9.4-x86_64.apk",
         "size": 60078346,
-        "sha256": "e0bb4cc04744b37a694fdc8ccf2694a9d4551155e08aba30b3996ab2bfd95c79"
+        "sha256": "0378a195f41b6fe50e8f5f8d7b1780c77ec2540019658a83da182423b8227003"
       }
     }
   },
   "windows-x64": {
     "version": "0.9.4",
-    "build": 65,
+    "build": 66,
     "minBuild": 0,
     "notes": "Что нового в 0.9.4:\n• Полоса о новой версии над подписками больше не пропадает после «Позже»: она видна, пока обновление не установлено.",
     "file": {
-      "url": "../builds/0.9.4+65/xash-setup-0.9.4.exe",
-      "size": 19946256,
-      "sha256": "d07829a10add43fb7bc682c924743d62c9f85659cd88c7dcc45fbfc439b203a2"
+      "url": "../builds/0.9.4+66/xash-setup-0.9.4.exe",
+      "size": 19950747,
+      "sha256": "b5ddafcb6ee6a40848ec6a90325badeec9f75803029b2351d438a48a5c69f160"
     }
   },
   "mirrors": {
