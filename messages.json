@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "serial": 2,
-  "published": "2026-10-14T12:57:46Z",
+  "serial": 3,
+  "published": "2026-10-14T13:11:38Z",
   "messages": [
     {
       "id": "test-important-1",
@@ -30,21 +30,6 @@
       }
     },
     {
-      "id": "test-important-2",
-      "category": "important",
-      "title": "Проверка 2: важное xASH",
-      "text": "Второе тестовое важное сообщение. Оно должно прийти уведомлением, пока окно xASH скрыто.",
-      "start": "2026-10-14T12:00:00Z",
-      "end": "2026-10-21T00:00:00Z",
-      "audience": {
-        "channel": "test"
-      },
-      "link": {
-        "label": "Открыть сайт",
-        "url": "https://telegram.org/"
-      }
-    },
-    {
       "id": "test-news-2",
       "category": "news",
       "title": "Проверка 2: новость xASH",
@@ -61,6 +46,21 @@
       "title": "Проверка 3: новость xASH",
       "text": "Третья тестовая новость, самая свежая. Уведомление должно прийти только о ней.",
       "start": "2026-10-14T12:30:00Z",
+      "end": "2026-10-21T00:00:00Z",
+      "audience": {
+        "channel": "test"
+      }
+    },
+    {
+      "id": "test-important-3",
+      "category": "important",
+      "title": "Проверка 3: важное xASH",
+      "text": "Третье тестовое важное сообщение. Нажмите на уведомление: откроется это окно, а кнопка ведёт на сайт.",
+      "link": {
+        "label": "Открыть сайт",
+        "url": "https://telegram.org/"
+      },
+      "start": "2026-10-14T13:00:00Z",
       "end": "2026-10-21T00:00:00Z",
       "audience": {
         "channel": "test"
