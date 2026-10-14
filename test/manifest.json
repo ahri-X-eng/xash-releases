@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-14T02:01:16Z",
+  "published": "2026-10-14T14:14:15Z",
   "android": {
     "version": "0.9.5",
-    "build": 67,
+    "build": 68,
     "minBuild": 0,
     "notes": "Сообщения от xASH: важные объявления, новости и предложения. Их видно на главном экране, в настройках («Сообщения») и в уведомлениях. Новости и предложения можно выключить.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.5+67/xash-0.9.5-arm64-v8a.apk",
+        "url": "../builds/0.9.5+68/xash-0.9.5-arm64-v8a.apk",
         "size": 56400121,
-        "sha256": "603e2b896e16238d790a9340ff6161cb2356d29fedc4b16b08d7e46555988c04"
+        "sha256": "6e7a5d59ee0a2d0a25afa314127370005bbc87bae9081905d7055590df263523"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.5+67/xash-0.9.5-armeabi-v7a.apk",
+        "url": "../builds/0.9.5+68/xash-0.9.5-armeabi-v7a.apk",
         "size": 52809707,
-        "sha256": "2e1f037c55f6ff8a36273f25fad28eb17f3980a47b3eb86fe7ba95b568ed07f2"
+        "sha256": "5133546b3681b21d80f5461743c8032e55f729183f35d7482c7c815e668bed19"
       },
       "universal": {
-        "url": "../builds/0.9.5+67/xash-0.9.5-universal.apk",
+        "url": "../builds/0.9.5+68/xash-0.9.5-universal.apk",
         "size": 167023556,
-        "sha256": "22017c31c247326f95bd209870fb0521cdeb0fb662c04c4821a0138cc4728913"
+        "sha256": "10e8ddab4cc5b6e98cced80eb85841a7959305e92ae4ccd6361360bde9c7c8f7"
       },
       "x86_64": {
-        "url": "../builds/0.9.5+67/xash-0.9.5-x86_64.apk",
+        "url": "../builds/0.9.5+68/xash-0.9.5-x86_64.apk",
         "size": 60313802,
-        "sha256": "2e08f09d9227dd9d959bb088b6d5747bd71c1e5e0017795ac3dd8cfd4f96c701"
+        "sha256": "8d1d70c2c1087f91918c9d9c37648ae483e5fb33018eed394c3204d28b4d421f"
       }
     }
   },
   "windows-x64": {
     "version": "0.9.5",
-    "build": 67,
+    "build": 68,
     "minBuild": 0,
     "notes": "Сообщения от xASH: важные объявления, новости и предложения. Их видно на главном экране, в настройках («Сообщения») и в уведомлениях. Новости и предложения можно выключить.",
     "file": {
-      "url": "../builds/0.9.5+67/xash-setup-0.9.5.exe",
-      "size": 20002187,
-      "sha256": "33b16ca5cfde19b30122201b577473d030097f799ba07fdb9723c9d1ca613922"
+      "url": "../builds/0.9.5+68/xash-setup-0.9.5.exe",
+      "size": 19993814,
+      "sha256": "f27bb7c4f810fec6636bc20d987bb7ec4ba41e5fb190e6bd1315a12eda92560a"
     }
   },
   "mirrors": {
