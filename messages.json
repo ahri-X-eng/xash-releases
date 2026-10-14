@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "serial": 3,
-  "published": "2026-10-14T13:11:38Z",
+  "serial": 4,
+  "published": "2026-10-14T14:50:36Z",
   "messages": [
     {
       "id": "test-important-1",
@@ -61,6 +61,17 @@
         "url": "https://telegram.org/"
       },
       "start": "2026-10-14T13:00:00Z",
+      "end": "2026-10-21T00:00:00Z",
+      "audience": {
+        "channel": "test"
+      }
+    },
+    {
+      "id": "test-important-4",
+      "category": "important",
+      "title": "Проверка 4: важное xASH",
+      "text": "Четвёртое тестовое важное сообщение. Нажмите на него в центре уведомлений, когда всплывашка исчезнет.",
+      "start": "2026-10-14T14:00:00Z",
       "end": "2026-10-21T00:00:00Z",
       "audience": {
         "channel": "test"
