@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-14T17:38:37Z",
+  "published": "2026-10-15T12:45:50Z",
   "android": {
     "version": "0.9.6",
-    "build": 69,
+    "build": 70,
     "minBuild": 0,
     "notes": "«Отправить журнал» собирает архив за несколько секунд: в нём последние 10 МБ журнала. События диагностики теперь сохраняются между запусками, в том числе после обновления.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.6+69/xash-0.9.6-arm64-v8a.apk",
+        "url": "../builds/0.9.6+70/xash-0.9.6-arm64-v8a.apk",
         "size": 56400725,
-        "sha256": "51f226403cd81058f9f14dc7c6a7f2f5fb6cf36d32e0a91e68394720368bbaf8"
+        "sha256": "5a9c7a159589f99f754f9a742407dcc0cd3cbcf9739cb852465941f9f05815c3"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.6+69/xash-0.9.6-armeabi-v7a.apk",
+        "url": "../builds/0.9.6+70/xash-0.9.6-armeabi-v7a.apk",
         "size": 52826679,
-        "sha256": "b5b8945e80a5a10c8fe4386fada8fe7ec748c9bc1a9321e887eef8fecc0c07ab"
+        "sha256": "d8ec99e67e196f310d1d054aa56aafbc69c5ce01037afd614e9bbf9947e15776"
       },
       "universal": {
-        "url": "../builds/0.9.6+69/xash-0.9.6-universal.apk",
+        "url": "../builds/0.9.6+70/xash-0.9.6-universal.apk",
         "size": 167056992,
-        "sha256": "2c8d64247b726848e23bdaa1fc6b7442299531c8000bece7ec7bea35899094a8"
+        "sha256": "ce801efb690e535603fa7c4eeb0e122bd5d1d9e8328fb20eb2e58b24add86741"
       },
       "x86_64": {
-        "url": "../builds/0.9.6+69/xash-0.9.6-x86_64.apk",
+        "url": "../builds/0.9.6+70/xash-0.9.6-x86_64.apk",
         "size": 60314470,
-        "sha256": "dd3056e357d668e7663f1724e24808e30f8db54ca785fc1a0bd03982a457712e"
+        "sha256": "56f6e1bed9c2ecf5c1aabff93826cb6ae7488425202b3d7676f3eb07a8476f4b"
       }
     }
   },
   "windows-x64": {
     "version": "0.9.6",
-    "build": 69,
+    "build": 70,
     "minBuild": 0,
     "notes": "Ссылки подписок больше не пропадают, если компьютер выключился во время их сохранения. «Сохранить журнал»: в архиве последние 10 МБ журнала. События диагностики сохраняются между запусками, в том числе после обновления.",
     "file": {
-      "url": "../builds/0.9.6+69/xash-setup-0.9.6.exe",
-      "size": 20001741,
-      "sha256": "4fc1f255491cecef3e94476edab994d604cf2d7b643e5fe92005e8c4c9060e6e"
+      "url": "../builds/0.9.6+70/xash-setup-0.9.6.exe",
+      "size": 20004025,
+      "sha256": "b3227420b92eaec7aa9a1fc34f5670ea396e73c88fc65025f633fa98817b7a5c"
     }
   },
   "mirrors": {
