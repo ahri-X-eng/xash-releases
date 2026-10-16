@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-16T19:27:43Z",
+  "published": "2026-10-16T20:05:54Z",
   "android": {
     "version": "0.11.0",
-    "build": 72,
+    "build": 73,
     "minBuild": 0,
     "notes": "Приложение теперь называется xASH Connect. Смена сервера без переподключения: туннель не опускается, прямые соединения и приложения мимо VPN не замечают смены, а соединения через VPN сразу переходят на новый сервер. Если новый сервер отличается маршрутами или DNS, приложение переподключается, как раньше.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.11.0+72/xash-0.11.0-arm64-v8a.apk",
+        "url": "../builds/0.11.0+73/xash-0.11.0-arm64-v8a.apk",
         "size": 58746521,
-        "sha256": "c9fe3ee6d8995527d9bc9a3a47d7fc36a91deba6cefd6f520b2fd179fc122673"
+        "sha256": "994475443d0a14a2aa5c135e45cfb4a455c3206ba44fe01dbe741ae89e3d8022"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.11.0+72/xash-0.11.0-armeabi-v7a.apk",
+        "url": "../builds/0.11.0+73/xash-0.11.0-armeabi-v7a.apk",
         "size": 55191635,
-        "sha256": "b7c9f7ce2fc6005b484e246ec21c3f000ddad14611c581d091d64ab1765e649f"
+        "sha256": "7f2644792b8f1ffc6ea47e6ce9ad5bb6ed0715927709cede2b1e0c536e76b0ff"
       },
       "universal": {
-        "url": "../builds/0.11.0+72/xash-0.11.0-universal.apk",
+        "url": "../builds/0.11.0+73/xash-0.11.0-universal.apk",
         "size": 174227396,
-        "sha256": "51eacf525d8c3fd5c974ae2252decf067061b38be9efa50f8d4e1a55cfd1c66b"
+        "sha256": "0e8ce833a4e364ce3c787681d62d9fa5be472396281e2a5becfa098b03911278"
       },
       "x86_64": {
-        "url": "../builds/0.11.0+72/xash-0.11.0-x86_64.apk",
+        "url": "../builds/0.11.0+73/xash-0.11.0-x86_64.apk",
         "size": 62799050,
-        "sha256": "2f17b1da8337a4a8d00473db38d6a661e0b228de0199a2ca888f6c90357c61b1"
+        "sha256": "8cebdec76048b8bba4a6ef5150e9d024537723c743d46df8f8b2d159b09c0934"
       }
     }
   },
   "windows-x64": {
     "version": "0.11.0",
-    "build": 72,
+    "build": 73,
     "minBuild": 0,
     "notes": "Приложение теперь называется xASH Connect. Смена сервера без переподключения: туннель не опускается, прямые соединения и приложения мимо VPN не замечают смены, а соединения через VPN сразу переходят на новый сервер. Если новый сервер отличается маршрутами или DNS, приложение переподключается, как раньше.",
     "file": {
-      "url": "../builds/0.11.0+72/xash-setup-0.11.0.exe",
-      "size": 20731990,
-      "sha256": "4a83ebbddc5642905a4af80a24a1c6499be5c06f2df201f06c1606b2137a44bc"
+      "url": "../builds/0.11.0+73/xash-setup-0.11.0.exe",
+      "size": 20732889,
+      "sha256": "2a746733d04f3d27e6af7c5e4001c2cdc701217d833c15b42cd955ce6d24105e"
     }
   },
   "mirrors": {
