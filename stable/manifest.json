@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-10-15T13:15:33Z",
+  "published": "2026-10-16T15:34:14Z",
   "android": {
-    "version": "0.9.6",
-    "build": 70,
+    "version": "0.10.0",
+    "build": 71,
     "minBuild": 0,
-    "notes": "«Отправить журнал» собирает архив за несколько секунд: в нём последние 10 МБ журнала. События диагностики теперь сохраняются между запусками, в том числе после обновления.",
+    "notes": "Новое ядро Xray-core 26.10.10: исправления транспортов, Hysteria и XDNS. Поддержка Shadowsocks 2022. Небезопасные части новых конфигов (Lua-скрипты, XDRIVE, MASQUE) не запускаются.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.9.6+70/xash-0.9.6-arm64-v8a.apk",
-        "size": 56400725,
-        "sha256": "5a9c7a159589f99f754f9a742407dcc0cd3cbcf9739cb852465941f9f05815c3"
+        "url": "../builds/0.10.0+71/xash-0.10.0-arm64-v8a.apk",
+        "size": 58707465,
+        "sha256": "10a41f91bf1e8864046526f109833631d588bddbc70b0e4b871687cfb5073bfe"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.9.6+70/xash-0.9.6-armeabi-v7a.apk",
-        "size": 52826679,
-        "sha256": "d8ec99e67e196f310d1d054aa56aafbc69c5ce01037afd614e9bbf9947e15776"
+        "url": "../builds/0.10.0+71/xash-0.10.0-armeabi-v7a.apk",
+        "size": 55155827,
+        "sha256": "63719a481c351e567fcd892f8ceca6e015439ff1438f0b9ae6f38e9fcc98c81a"
       },
       "universal": {
-        "url": "../builds/0.9.6+70/xash-0.9.6-universal.apk",
-        "size": 167056992,
-        "sha256": "ce801efb690e535603fa7c4eeb0e122bd5d1d9e8328fb20eb2e58b24add86741"
+        "url": "../builds/0.10.0+71/xash-0.10.0-universal.apk",
+        "size": 174119796,
+        "sha256": "0f7433a5ba111377f221ecf223bdbba08f8f73425d429f629fd035e2ee18ce63"
       },
       "x86_64": {
-        "url": "../builds/0.9.6+70/xash-0.9.6-x86_64.apk",
-        "size": 60314470,
-        "sha256": "56f6e1bed9c2ecf5c1aabff93826cb6ae7488425202b3d7676f3eb07a8476f4b"
+        "url": "../builds/0.10.0+71/xash-0.10.0-x86_64.apk",
+        "size": 62756986,
+        "sha256": "e886d5f2f1dff6f10345058507979fea6a9af668cc3647ceddae4d9b220ee4a9"
       }
     }
   },
   "windows-x64": {
-    "version": "0.9.6",
-    "build": 70,
+    "version": "0.10.0",
+    "build": 71,
     "minBuild": 0,
-    "notes": "Ссылки подписок больше не пропадают, если компьютер выключился во время их сохранения. «Сохранить журнал»: в архиве последние 10 МБ журнала. События диагностики сохраняются между запусками, в том числе после обновления.",
+    "notes": "Новое ядро Xray-core 26.10.10: исправления транспортов, Hysteria и XDNS. Поддержка Shadowsocks 2022. Настройка «Доверять сертификатам системы» – для серверов с TLS за антивирусом, который проверяет HTTPS. Небезопасные части новых конфигов (Lua-скрипты, XDRIVE, MASQUE) не запускаются.",
     "file": {
-      "url": "../builds/0.9.6+70/xash-setup-0.9.6.exe",
-      "size": 20004025,
-      "sha256": "b3227420b92eaec7aa9a1fc34f5670ea396e73c88fc65025f633fa98817b7a5c"
+      "url": "../builds/0.10.0+71/xash-setup-0.10.0.exe",
+      "size": 20706555,
+      "sha256": "dad6d98f5634e19615f7e337f173d09a7e3d6f1d99e5f27e87ce9d121a135292"
     }
   },
   "mirrors": {
