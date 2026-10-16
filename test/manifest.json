@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-15T18:35:21Z",
+  "published": "2026-10-16T19:27:43Z",
   "android": {
-    "version": "0.10.0",
-    "build": 71,
+    "version": "0.11.0",
+    "build": 72,
     "minBuild": 0,
-    "notes": "Новое ядро Xray-core 26.10.10: исправления транспортов, Hysteria и XDNS. Поддержка Shadowsocks 2022. Небезопасные части новых конфигов (Lua-скрипты, XDRIVE, MASQUE) не запускаются.",
+    "notes": "Приложение теперь называется xASH Connect. Смена сервера без переподключения: туннель не опускается, прямые соединения и приложения мимо VPN не замечают смены, а соединения через VPN сразу переходят на новый сервер. Если новый сервер отличается маршрутами или DNS, приложение переподключается, как раньше.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.10.0+71/xash-0.10.0-arm64-v8a.apk",
-        "size": 58707465,
-        "sha256": "10a41f91bf1e8864046526f109833631d588bddbc70b0e4b871687cfb5073bfe"
+        "url": "../builds/0.11.0+72/xash-0.11.0-arm64-v8a.apk",
+        "size": 58746521,
+        "sha256": "c9fe3ee6d8995527d9bc9a3a47d7fc36a91deba6cefd6f520b2fd179fc122673"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.10.0+71/xash-0.10.0-armeabi-v7a.apk",
-        "size": 55155827,
-        "sha256": "63719a481c351e567fcd892f8ceca6e015439ff1438f0b9ae6f38e9fcc98c81a"
+        "url": "../builds/0.11.0+72/xash-0.11.0-armeabi-v7a.apk",
+        "size": 55191635,
+        "sha256": "b7c9f7ce2fc6005b484e246ec21c3f000ddad14611c581d091d64ab1765e649f"
       },
       "universal": {
-        "url": "../builds/0.10.0+71/xash-0.10.0-universal.apk",
-        "size": 174119796,
-        "sha256": "0f7433a5ba111377f221ecf223bdbba08f8f73425d429f629fd035e2ee18ce63"
+        "url": "../builds/0.11.0+72/xash-0.11.0-universal.apk",
+        "size": 174227396,
+        "sha256": "51eacf525d8c3fd5c974ae2252decf067061b38be9efa50f8d4e1a55cfd1c66b"
       },
       "x86_64": {
-        "url": "../builds/0.10.0+71/xash-0.10.0-x86_64.apk",
-        "size": 62756986,
-        "sha256": "e886d5f2f1dff6f10345058507979fea6a9af668cc3647ceddae4d9b220ee4a9"
+        "url": "../builds/0.11.0+72/xash-0.11.0-x86_64.apk",
+        "size": 62799050,
+        "sha256": "2f17b1da8337a4a8d00473db38d6a661e0b228de0199a2ca888f6c90357c61b1"
       }
     }
   },
   "windows-x64": {
-    "version": "0.10.0",
-    "build": 71,
+    "version": "0.11.0",
+    "build": 72,
     "minBuild": 0,
-    "notes": "Новое ядро Xray-core 26.10.10: исправления транспортов, Hysteria и XDNS. Поддержка Shadowsocks 2022. Настройка «Доверять сертификатам системы» – для серверов с TLS за антивирусом, который проверяет HTTPS. Небезопасные части новых конфигов (Lua-скрипты, XDRIVE, MASQUE) не запускаются.",
+    "notes": "Приложение теперь называется xASH Connect. Смена сервера без переподключения: туннель не опускается, прямые соединения и приложения мимо VPN не замечают смены, а соединения через VPN сразу переходят на новый сервер. Если новый сервер отличается маршрутами или DNS, приложение переподключается, как раньше.",
     "file": {
-      "url": "../builds/0.10.0+71/xash-setup-0.10.0.exe",
-      "size": 20706555,
-      "sha256": "dad6d98f5634e19615f7e337f173d09a7e3d6f1d99e5f27e87ce9d121a135292"
+      "url": "../builds/0.11.0+72/xash-setup-0.11.0.exe",
+      "size": 20731990,
+      "sha256": "4a83ebbddc5642905a4af80a24a1c6499be5c06f2df201f06c1606b2137a44bc"
     }
   },
   "mirrors": {
