@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-21T19:01:18Z",
-  "expires": "2027-01-19T19:01:18Z",
+  "published": "2026-10-21T19:16:50Z",
+  "expires": "2027-01-19T19:16:50Z",
   "android": {
     "version": "0.15.0",
     "build": 83,
@@ -33,13 +33,13 @@
   },
   "windows-x64": {
     "version": "0.15.1",
-    "build": 84,
+    "build": 85,
     "minBuild": 0,
     "notes": "Окно xASH Connect больше не остаётся белым после обновления драйвера видеокарты: приложение само перезапускает окно, а VPN при этом не отключается.",
     "file": {
-      "url": "../builds/0.15.1+84/xash-setup-0.15.1.exe",
-      "size": 20866543,
-      "sha256": "48b1032e98dc2ae9f5abe07651b456c08e8970b6ddbcf943d3ca62c894cc238c"
+      "url": "../builds/0.15.1+85/xash-setup-0.15.1.exe",
+      "size": 20861298,
+      "sha256": "996deee82dc8611e85f816e057197f5ef22473947f5c6e0414899c282f0db5dc"
     }
   },
   "mirrors": {
