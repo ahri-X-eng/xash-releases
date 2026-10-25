@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-25T11:06:50Z",
-  "expires": "2027-01-23T11:06:50Z",
+  "published": "2026-10-25T17:07:17Z",
+  "expires": "2027-01-23T17:07:17Z",
   "android": {
-    "version": "0.21.0",
-    "build": 92,
+    "version": "0.22.0",
+    "build": 94,
     "minBuild": 0,
-    "notes": "Галочка после обновления подписки появляется сразу.",
+    "notes": "На Android 10 и новее роутер, принтер и телевизор доступны при включённом VPN: пункт «LAN напрямую» в Настройках.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.21.0+92/xash-0.21.0-arm64-v8a.apk",
+        "url": "../builds/0.22.0+94/xash-0.22.0-arm64-v8a.apk",
         "size": 55305913,
-        "sha256": "e9cbac52f66f6fa572c8fcb308683cd79705eb44c7edea283757a5c0b1339b05"
+        "sha256": "8ec5c3d571c40e32aa7af386a62cf8cad4717fc018b5c329174c7af12b96af6b"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.21.0+92/xash-0.21.0-armeabi-v7a.apk",
+        "url": "../builds/0.22.0+94/xash-0.22.0-armeabi-v7a.apk",
         "size": 52176139,
-        "sha256": "ee4582f6152c9c1d8e37de97ebae7e1509476b425eaee71ac4b3c59b9abf48d1"
+        "sha256": "e0be4f5d263185b84ca758eb3594d3d35422e682f7c9537abac8487aae9f0fe4"
       },
       "universal": {
-        "url": "../builds/0.21.0+92/xash-0.21.0-universal.apk",
+        "url": "../builds/0.22.0+94/xash-0.22.0-universal.apk",
         "size": 164005636,
-        "sha256": "c64540cfaa0a2428cc5bfc59e0997aca86d652b189f67395096c8e87a1d93aff"
+        "sha256": "e73ddca1770e47d8236cd99f1dbf2142b85dda1a9c8717dd27ae1b0f81b8ae8b"
       },
       "x86_64": {
-        "url": "../builds/0.21.0+92/xash-0.21.0-x86_64.apk",
+        "url": "../builds/0.22.0+94/xash-0.22.0-x86_64.apk",
         "size": 59130890,
-        "sha256": "da5d34830246edfa56f3730f960285987e11fb81226bd9ad43c80bf3834cccee"
+        "sha256": "27cec53c10a41d3d7ab1e449c58a8b23e82c46576019e74f0a772839c34c2470"
       }
     }
   },
   "windows-x64": {
-    "version": "0.21.0",
-    "build": 92,
+    "version": "0.22.0",
+    "build": 94,
     "minBuild": 0,
-    "notes": "Окно прилипает к краям экрана. Галочка после обновления подписки появляется сразу.",
+    "notes": "Изменений для Windows нет: новое в этой версии – для Android.",
     "file": {
-      "url": "../builds/0.21.0+92/xash-setup-0.21.0.exe",
-      "size": 20162973,
-      "sha256": "8686b1a214f4fbf355d9e6717ea2a105551c64c61fe268b6890616d37b89bf87"
+      "url": "../builds/0.22.0+94/xash-setup-0.22.0.exe",
+      "size": 20162919,
+      "sha256": "7486681077e51680e5934cfc2a68e60dc46882c6833e72c261215094b2792b9c"
     }
   },
   "mirrors": {
