@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-25T08:16:51Z",
-  "expires": "2027-01-23T08:16:51Z",
+  "published": "2026-10-25T10:24:36Z",
+  "expires": "2027-01-23T10:24:36Z",
   "android": {
-    "version": "0.20.0",
-    "build": 90,
+    "version": "0.21.0",
+    "build": 91,
     "minBuild": 0,
-    "notes": "Подписки, зашифрованные панелью для xASH, теперь читаются. На планшете в альбомной ориентации список серверов и подключение стоят рядом. После «Обновить подписку» появляется галочка, если обновление удалось.",
+    "notes": "Галочка после обновления подписки появляется сразу.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.20.0+90/xash-0.20.0-arm64-v8a.apk",
-        "size": 55305913,
-        "sha256": "874261e71429d3aac9307a4a69c62f4eb3667166ea24c3dc53d784ee1bcaaac7"
+        "url": "../builds/0.21.0+91/xash-0.21.0-arm64-v8a.apk",
+        "size": 55305917,
+        "sha256": "725ea58fbf2da7e9cd6f2e7eae51a37ea4270faa15336fc707909db7882a0c39"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.20.0+90/xash-0.20.0-armeabi-v7a.apk",
-        "size": 52159755,
-        "sha256": "8e10fbbc1adc18d2b4ea954d1e2ce98430df173a35b7cb309b621cb37ee48be2"
+        "url": "../builds/0.21.0+91/xash-0.21.0-armeabi-v7a.apk",
+        "size": 52176143,
+        "sha256": "8df7ce877eb94af4325fde439c906b54caa5e597f8d92b72673a4e7be9328ba9"
       },
       "universal": {
-        "url": "../builds/0.20.0+90/xash-0.20.0-universal.apk",
-        "size": 163989252,
-        "sha256": "59fe58db6bd07d169a60580263540158ca8755b3fcd812ccfb5357fd06df5004"
+        "url": "../builds/0.21.0+91/xash-0.21.0-universal.apk",
+        "size": 164005640,
+        "sha256": "04aca35833d90053fca9c36177980f24507d7cf48979ea82595ed7c5d5a66dcc"
       },
       "x86_64": {
-        "url": "../builds/0.20.0+90/xash-0.20.0-x86_64.apk",
-        "size": 59130890,
-        "sha256": "2f3bfa3130962d549ff672e3eaf736aba1cfe280d9426453d0940a7bfbe917e6"
+        "url": "../builds/0.21.0+91/xash-0.21.0-x86_64.apk",
+        "size": 59130894,
+        "sha256": "b20ef98f22d3a9202b3e0b04c5def0f88939f8f1b5dc115a2df6a89d2f48bc73"
       }
     }
   },
   "windows-x64": {
-    "version": "0.20.0",
-    "build": 90,
+    "version": "0.21.0",
+    "build": 91,
     "minBuild": 0,
-    "notes": "Подписки, зашифрованные панелью для xASH, теперь читаются. В широком окне список серверов и подключение стоят рядом. После «Обновить подписку» появляется галочка, если обновление удалось.",
+    "notes": "Окно прилипает к краям экрана. Галочка после обновления подписки появляется сразу.",
     "file": {
-      "url": "../builds/0.20.0+90/xash-setup-0.20.0.exe",
-      "size": 20165188,
-      "sha256": "980edacebb42c1160a2656a4a476d98e95045a424018efa10eab103347699def"
+      "url": "../builds/0.21.0+91/xash-setup-0.21.0.exe",
+      "size": 20165748,
+      "sha256": "8ea60e958ec189ef700ce4b59fb434c51ac263828f6b6ed3410ed18a2cc09d0d"
     }
   },
   "mirrors": {
