@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-25T17:40:57Z",
-  "expires": "2027-01-23T17:40:57Z",
+  "published": "2026-10-25T18:12:54Z",
+  "expires": "2027-01-23T18:12:54Z",
   "android": {
-    "version": "0.22.0",
-    "build": 94,
+    "version": "0.23.0",
+    "build": 95,
     "minBuild": 0,
-    "notes": "На Android 10 и новее роутер, принтер и телевизор доступны при включённом VPN: пункт «LAN напрямую» в Настройках.",
+    "notes": "Пока VPN переподключается при смене сервера, трафик не уходит напрямую.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.22.0+94/xash-0.22.0-arm64-v8a.apk",
-        "size": 55305913,
-        "sha256": "8ec5c3d571c40e32aa7af386a62cf8cad4717fc018b5c329174c7af12b96af6b"
+        "url": "../builds/0.23.0+95/xash-0.23.0-arm64-v8a.apk",
+        "size": 55306041,
+        "sha256": "4a8b1de490431fda137acaab8764d814b5824b85b3d07c5528474d3ee523cb09"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.22.0+94/xash-0.22.0-armeabi-v7a.apk",
-        "size": 52176139,
-        "sha256": "e0be4f5d263185b84ca758eb3594d3d35422e682f7c9537abac8487aae9f0fe4"
+        "url": "../builds/0.23.0+95/xash-0.23.0-armeabi-v7a.apk",
+        "size": 52176203,
+        "sha256": "3219d2528464c27413f65394d83f34e0958c1614d8a0c4592c5cc4ced3780ff5"
       },
       "universal": {
-        "url": "../builds/0.22.0+94/xash-0.22.0-universal.apk",
-        "size": 164005636,
-        "sha256": "e73ddca1770e47d8236cd99f1dbf2142b85dda1a9c8717dd27ae1b0f81b8ae8b"
+        "url": "../builds/0.23.0+95/xash-0.23.0-universal.apk",
+        "size": 164005668,
+        "sha256": "b32479a714aef4d308fb0e6a9c056ab83252680efc2acdb24ebfa0c54c681369"
       },
       "x86_64": {
-        "url": "../builds/0.22.0+94/xash-0.22.0-x86_64.apk",
-        "size": 59130890,
-        "sha256": "27cec53c10a41d3d7ab1e449c58a8b23e82c46576019e74f0a772839c34c2470"
+        "url": "../builds/0.23.0+95/xash-0.23.0-x86_64.apk",
+        "size": 59130922,
+        "sha256": "aebd060c085c2501730b15e7206aa30ee1fb92e4002b795795733b02756ccc04"
       }
     }
   },
   "windows-x64": {
-    "version": "0.22.0",
-    "build": 94,
+    "version": "0.23.0",
+    "build": 95,
     "minBuild": 0,
-    "notes": "Изменений для Windows нет: новое в этой версии – для Android.",
+    "notes": "Пока VPN переподключается при смене сервера или устанавливается обновление, трафик не уходит напрямую.",
     "file": {
-      "url": "../builds/0.22.0+94/xash-setup-0.22.0.exe",
-      "size": 20162919,
-      "sha256": "7486681077e51680e5934cfc2a68e60dc46882c6833e72c261215094b2792b9c"
+      "url": "../builds/0.23.0+95/xash-setup-0.23.0.exe",
+      "size": 20176423,
+      "sha256": "d5cf38fdf9648f16151eb31113283cdbe7a68c2b8bcbd703a9d359d7f37cb4e2"
     }
   },
   "mirrors": {
