@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-25T10:24:36Z",
-  "expires": "2027-01-23T10:24:36Z",
+  "published": "2026-10-25T10:42:43Z",
+  "expires": "2027-01-23T10:42:43Z",
   "android": {
     "version": "0.21.0",
-    "build": 91,
+    "build": 92,
     "minBuild": 0,
     "notes": "Галочка после обновления подписки появляется сразу.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.21.0+91/xash-0.21.0-arm64-v8a.apk",
-        "size": 55305917,
-        "sha256": "725ea58fbf2da7e9cd6f2e7eae51a37ea4270faa15336fc707909db7882a0c39"
+        "url": "../builds/0.21.0+92/xash-0.21.0-arm64-v8a.apk",
+        "size": 55305913,
+        "sha256": "e9cbac52f66f6fa572c8fcb308683cd79705eb44c7edea283757a5c0b1339b05"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.21.0+91/xash-0.21.0-armeabi-v7a.apk",
-        "size": 52176143,
-        "sha256": "8df7ce877eb94af4325fde439c906b54caa5e597f8d92b72673a4e7be9328ba9"
+        "url": "../builds/0.21.0+92/xash-0.21.0-armeabi-v7a.apk",
+        "size": 52176139,
+        "sha256": "ee4582f6152c9c1d8e37de97ebae7e1509476b425eaee71ac4b3c59b9abf48d1"
       },
       "universal": {
-        "url": "../builds/0.21.0+91/xash-0.21.0-universal.apk",
-        "size": 164005640,
-        "sha256": "04aca35833d90053fca9c36177980f24507d7cf48979ea82595ed7c5d5a66dcc"
+        "url": "../builds/0.21.0+92/xash-0.21.0-universal.apk",
+        "size": 164005636,
+        "sha256": "c64540cfaa0a2428cc5bfc59e0997aca86d652b189f67395096c8e87a1d93aff"
       },
       "x86_64": {
-        "url": "../builds/0.21.0+91/xash-0.21.0-x86_64.apk",
-        "size": 59130894,
-        "sha256": "b20ef98f22d3a9202b3e0b04c5def0f88939f8f1b5dc115a2df6a89d2f48bc73"
+        "url": "../builds/0.21.0+92/xash-0.21.0-x86_64.apk",
+        "size": 59130890,
+        "sha256": "da5d34830246edfa56f3730f960285987e11fb81226bd9ad43c80bf3834cccee"
       }
     }
   },
   "windows-x64": {
     "version": "0.21.0",
-    "build": 91,
+    "build": 92,
     "minBuild": 0,
     "notes": "Окно прилипает к краям экрана. Галочка после обновления подписки появляется сразу.",
     "file": {
-      "url": "../builds/0.21.0+91/xash-setup-0.21.0.exe",
-      "size": 20165748,
-      "sha256": "8ea60e958ec189ef700ce4b59fb434c51ac263828f6b6ed3410ed18a2cc09d0d"
+      "url": "../builds/0.21.0+92/xash-setup-0.21.0.exe",
+      "size": 20162973,
+      "sha256": "8686b1a214f4fbf355d9e6717ea2a105551c64c61fe268b6890616d37b89bf87"
     }
   },
   "mirrors": {
