@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-10-26T13:54:23Z",
-  "expires": "2027-01-24T13:54:23Z",
+  "published": "2026-10-26T14:32:12Z",
+  "expires": "2027-01-24T14:32:12Z",
   "android": {
-    "version": "0.23.0",
-    "build": 95,
+    "version": "0.24.0",
+    "build": 97,
     "minBuild": 0,
-    "notes": "Пока VPN переподключается при смене сервера, трафик не уходит напрямую.",
+    "notes": "Если у сервера несколько выходов и один перестал отвечать, трафик быстрее уходит на соседний.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.23.0+95/xash-0.23.0-arm64-v8a.apk",
-        "size": 55306041,
-        "sha256": "4a8b1de490431fda137acaab8764d814b5824b85b3d07c5528474d3ee523cb09"
+        "url": "../builds/0.24.0+97/xash-0.24.0-arm64-v8a.apk",
+        "size": 55336261,
+        "sha256": "e99dea601a76f6ccd27572aa3e3e6e014c95d37a616c62039f8203d5b9bfaa4d"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.23.0+95/xash-0.23.0-armeabi-v7a.apk",
-        "size": 52176203,
-        "sha256": "3219d2528464c27413f65394d83f34e0958c1614d8a0c4592c5cc4ced3780ff5"
+        "url": "../builds/0.24.0+97/xash-0.24.0-armeabi-v7a.apk",
+        "size": 52204655,
+        "sha256": "0fc90533fdca4e4d3cf94bb05bde1f779f7c0d493c007422da428f3c84db48f7"
       },
       "universal": {
-        "url": "../builds/0.23.0+95/xash-0.23.0-universal.apk",
-        "size": 164005668,
-        "sha256": "b32479a714aef4d308fb0e6a9c056ab83252680efc2acdb24ebfa0c54c681369"
+        "url": "../builds/0.24.0+97/xash-0.24.0-universal.apk",
+        "size": 164103152,
+        "sha256": "9328b8251eca45a78dc8d20b3ccbce5a0a1999ab444ffddf16a372d472062754"
       },
       "x86_64": {
-        "url": "../builds/0.23.0+95/xash-0.23.0-x86_64.apk",
-        "size": 59130922,
-        "sha256": "aebd060c085c2501730b15e7206aa30ee1fb92e4002b795795733b02756ccc04"
+        "url": "../builds/0.24.0+97/xash-0.24.0-x86_64.apk",
+        "size": 59162870,
+        "sha256": "df7323669b8719ec3b1e0a6ba169e4d2880737b1ddd7e4a81ee2b6998d0ca776"
       }
     }
   },
   "windows-x64": {
-    "version": "0.23.0",
-    "build": 96,
+    "version": "0.24.0",
+    "build": 97,
     "minBuild": 0,
-    "notes": "Пока VPN переподключается при смене сервера или устанавливается обновление, трафик не уходит напрямую.",
+    "notes": "Если у сервера несколько выходов и один перестал отвечать, трафик быстрее уходит на соседний.",
     "file": {
-      "url": "../builds/0.23.0+96/xash-setup-0.23.0.exe",
-      "size": 20176933,
-      "sha256": "b50550fc3d5b4230426615483b4516090db374423b828d3cc8aad53d67ff3a3c"
+      "url": "../builds/0.24.0+97/xash-setup-0.24.0.exe",
+      "size": 20190229,
+      "sha256": "f79e8a037169d279c0f027a178182d846822037662300c4d88baa8b4446e168c"
     }
   },
   "mirrors": {
