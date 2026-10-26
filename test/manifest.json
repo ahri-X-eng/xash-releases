@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-25T18:12:54Z",
-  "expires": "2027-01-23T18:12:54Z",
+  "published": "2026-10-26T12:54:21Z",
+  "expires": "2027-01-24T12:54:21Z",
   "android": {
     "version": "0.23.0",
     "build": 95,
@@ -33,13 +33,13 @@
   },
   "windows-x64": {
     "version": "0.23.0",
-    "build": 95,
+    "build": 96,
     "minBuild": 0,
     "notes": "Пока VPN переподключается при смене сервера или устанавливается обновление, трафик не уходит напрямую.",
     "file": {
-      "url": "../builds/0.23.0+95/xash-setup-0.23.0.exe",
-      "size": 20176423,
-      "sha256": "d5cf38fdf9648f16151eb31113283cdbe7a68c2b8bcbd703a9d359d7f37cb4e2"
+      "url": "../builds/0.23.0+96/xash-setup-0.23.0.exe",
+      "size": 20176933,
+      "sha256": "b50550fc3d5b4230426615483b4516090db374423b828d3cc8aad53d67ff3a3c"
     }
   },
   "mirrors": {
