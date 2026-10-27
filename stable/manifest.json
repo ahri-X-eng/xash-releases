@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-10-27T01:57:27Z",
-  "expires": "2027-01-25T01:57:27Z",
+  "published": "2026-10-27T14:05:50Z",
+  "expires": "2027-01-25T14:05:50Z",
   "android": {
-    "version": "0.24.0",
-    "build": 97,
+    "version": "0.25.0",
+    "build": 99,
     "minBuild": 0,
-    "notes": "Если у сервера несколько выходов и один перестал отвечать, трафик быстрее уходит на соседний.",
+    "notes": "Свои правила для сайтов и адресов: напрямую, через VPN или блокировать – Настройки → «Мои правила».",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.24.0+97/xash-0.24.0-arm64-v8a.apk",
-        "size": 55336261,
-        "sha256": "e99dea601a76f6ccd27572aa3e3e6e014c95d37a616c62039f8203d5b9bfaa4d"
+        "url": "../builds/0.25.0+99/xash-0.25.0-arm64-v8a.apk",
+        "size": 55493201,
+        "sha256": "a7a726546a9b7c848becab964569610641ecd37017f97dd428adb47d3c94a97d"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.24.0+97/xash-0.24.0-armeabi-v7a.apk",
-        "size": 52204655,
-        "sha256": "0fc90533fdca4e4d3cf94bb05bde1f779f7c0d493c007422da428f3c84db48f7"
+        "url": "../builds/0.25.0+99/xash-0.25.0-armeabi-v7a.apk",
+        "size": 52342211,
+        "sha256": "6593a680d4c07f00a2d66dc9f879706e40b3fbc558c91fc26459dcdb85cb92b3"
       },
       "universal": {
-        "url": "../builds/0.24.0+97/xash-0.24.0-universal.apk",
-        "size": 164103152,
-        "sha256": "9328b8251eca45a78dc8d20b3ccbce5a0a1999ab444ffddf16a372d472062754"
+        "url": "../builds/0.25.0+99/xash-0.25.0-universal.apk",
+        "size": 164587580,
+        "sha256": "d6b9b1004cab02ef2981fd8bf7ef4f237c877a8834e1f6a3754ccaf3c707f192"
       },
       "x86_64": {
-        "url": "../builds/0.24.0+97/xash-0.24.0-x86_64.apk",
-        "size": 59162870,
-        "sha256": "df7323669b8719ec3b1e0a6ba169e4d2880737b1ddd7e4a81ee2b6998d0ca776"
+        "url": "../builds/0.25.0+99/xash-0.25.0-x86_64.apk",
+        "size": 59385154,
+        "sha256": "6c9cfa5a0fea773b4d59ad651afe5be3ece70dd9543d48fd9d4712895e83511c"
       }
     }
   },
   "windows-x64": {
-    "version": "0.24.1",
-    "build": 98,
+    "version": "0.25.0",
+    "build": 99,
     "minBuild": 0,
-    "notes": "Торрент-клиент и другие программы, которые идут мимо VPN, больше не перегружают сеть компьютера: соединение им открывается, только когда адрес действительно ответил.",
+    "notes": "Свои правила для сайтов и адресов: напрямую, через VPN или блокировать – Настройки → «Мои правила».",
     "file": {
-      "url": "../builds/0.24.1+98/xash-setup-0.24.1.exe",
-      "size": 20216624,
-      "sha256": "db7e6d96b8cecfbaf99ee5545ca81d229516477f84598bce1d04e9a91ec02780"
+      "url": "../builds/0.25.0+99/xash-setup-0.25.0.exe",
+      "size": 20256492,
+      "sha256": "9eb781d5de84af41dda88b5f5d591e1c695cdfdc7aee4ecd19d07ad14db4c048"
     }
   },
   "mirrors": {
