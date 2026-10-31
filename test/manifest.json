@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-10-28T14:54:56Z",
-  "expires": "2027-01-26T14:54:56Z",
+  "published": "2026-10-31T19:02:38Z",
+  "expires": "2027-01-29T19:02:38Z",
   "android": {
     "version": "0.26.0",
-    "build": 100,
+    "build": 101,
     "minBuild": 0,
-    "notes": "Наборы «Реклама – блокировать» и «Российские сайты – напрямую» в «Моих правилах» и геофайлы для правил серверов – скачиваются только с вашего согласия. Правила можно вводить через запятую и удалить все сразу.",
+    "notes": "Внутреннее обновление: компоненты AppSession разнесены по отдельным модулям без изменения поведения приложения и публичного API.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.26.0+100/xash-0.26.0-arm64-v8a.apk",
-        "size": 55657301,
-        "sha256": "8597de32c75440756958219bc44ef83fa087dce348a76c21b1f977816e7d7b0a"
+        "url": "../builds/0.26.0+101/xash-0.26.0-arm64-v8a.apk",
+        "size": 55656981,
+        "sha256": "ba4686787cc83c1d323f2e82da35d758249e738d05ace0aaba3139a038ce5c14"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.26.0+100/xash-0.26.0-armeabi-v7a.apk",
-        "size": 52524343,
-        "sha256": "02c766f9d48c227b9381d2e24c74c521d8e158d3cd917e73db381dbcd4479b5a"
+        "url": "../builds/0.26.0+101/xash-0.26.0-armeabi-v7a.apk",
+        "size": 52573175,
+        "sha256": "f8baacbef6ac6f17bbc6bb4e32430ab10d0c20be5a1808bfb961ad3fdb712401"
       },
       "universal": {
-        "url": "../builds/0.26.0+100/xash-0.26.0-universal.apk",
-        "size": 165064672,
-        "sha256": "28687a103acabd024fa5508919ac60df07accf2a54c2f40e81d98b6eaab3d7c1"
+        "url": "../builds/0.26.0+101/xash-0.26.0-universal.apk",
+        "size": 165113504,
+        "sha256": "3c21fd01f0f1d053a35a8053d024a0ab1b988eeb9ee20e943a93bc3cedbd7cf0"
       },
       "x86_64": {
-        "url": "../builds/0.26.0+100/xash-0.26.0-x86_64.apk",
-        "size": 59550950,
-        "sha256": "d0ff3dce003041e98a619babbc12d618fac129b80190f63cec1e3dcf24df42ce"
+        "url": "../builds/0.26.0+101/xash-0.26.0-x86_64.apk",
+        "size": 59550630,
+        "sha256": "ec088b9843089cb42b76934b025c72b7b1c43d9f5d6551ce98febac46454489a"
       }
     }
   },
