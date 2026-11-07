@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-03T20:35:05Z",
-  "expires": "2027-02-01T20:35:05Z",
+  "published": "2026-11-07T17:24:16Z",
+  "expires": "2027-02-05T17:24:16Z",
   "android": {
-    "version": "0.28.0",
-    "build": 103,
+    "version": "0.29.1",
+    "build": 109,
     "minBuild": 0,
-    "notes": "Обновлено ядро Xray-core до версии 26.10.31. MPTCP теперь отключён по умолчанию из-за уязвимости Linux IPv4 MPTCP. Также обновлены сетевые зависимости.",
+    "notes": "Исправлена обработка серверных настроек Mux и фрагментации. Подсказки фрагментации показывают допустимые границы. При возврате назад корректные поля сохраняются целиком. Для поля с ошибкой остаётся прежнее значение.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-arm64-v8a.apk",
-        "size": 55841509,
-        "sha256": "955889f67b798f6a588130c4cd1235e8283cd7455b0e3147a5b416e7f27b1832"
+        "url": "../builds/0.29.1+109/xash-0.29.1-arm64-v8a.apk",
+        "size": 55975385,
+        "sha256": "d434656a3a9cc6fdce4b6d51eaa202ad95a0b18a1fe3c553ef7c0f593ee2bcce"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-armeabi-v7a.apk",
-        "size": 52689503,
-        "sha256": "44d5c672549c3b281a750e84f2cb4b6d75dc7feb7def9b701107bd2c2a2bee3d"
+        "url": "../builds/0.29.1+109/xash-0.29.1-armeabi-v7a.apk",
+        "size": 52822979,
+        "sha256": "d0e45b217ef4dd4ac7ca00b646e492dec3f0c711535c40242bd1bb82ec0c8d48"
       },
       "universal": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-universal.apk",
-        "size": 165536336,
-        "sha256": "c12cb4026f1a54f8e4b6327e5976cdbbd374f808eae15e6757cebae0ee8b8070"
+        "url": "../builds/0.29.1+109/xash-0.29.1-universal.apk",
+        "size": 166014500,
+        "sha256": "307edb88563b4943f5178f255c796f7ca0a4e23ad5ec4211555c08debafeff55"
       },
       "x86_64": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-x86_64.apk",
-        "size": 59678550,
-        "sha256": "671f2ec1cbdeb4cc566ceebba4dee77ea9f8aa47a1c9331c1b1de2ffe80b0443"
+        "url": "../builds/0.29.1+109/xash-0.29.1-x86_64.apk",
+        "size": 59878186,
+        "sha256": "df1608b4e24cd30cd1ce60c4f541a44e3989ff051e021c0614ea1fd40d6b35a1"
       }
     }
   },
   "windows-x64": {
-    "version": "0.28.0",
-    "build": 103,
+    "version": "0.29.1",
+    "build": 109,
     "minBuild": 0,
-    "notes": "Обновлено ядро Xray-core до версии 26.10.31. MPTCP теперь отключён по умолчанию из-за уязвимости Linux IPv4 MPTCP. Также обновлены сетевые зависимости.",
+    "notes": "Исправлена обработка серверных настроек Mux и фрагментации. Подсказки фрагментации показывают допустимые границы. При возврате назад или скрытии окна корректные поля сохраняются целиком. Для поля с ошибкой остаётся прежнее значение.",
     "file": {
-      "url": "../builds/0.28.0+103/xash-setup-0.28.0.exe",
-      "size": 20372122,
-      "sha256": "b2ca9a6272449a220ca8f4dde151825afa56c338d8893ce2246ce1824b720892"
+      "url": "../builds/0.29.1+109/xash-setup-0.29.1.exe",
+      "size": 20421800,
+      "sha256": "1b157af739237ba52985a29e6c04c331bb0e2e46f8724e4fc64fc3877765a615"
     }
   },
   "mirrors": {
