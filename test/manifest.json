@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-09T18:01:53Z",
-  "expires": "2027-02-07T18:01:53Z",
+  "published": "2026-11-09T19:50:33Z",
+  "expires": "2027-02-07T19:50:33Z",
   "android": {
-    "version": "0.29.1",
-    "build": 111,
+    "version": "0.29.2",
+    "build": 112,
     "minBuild": 0,
-    "notes": "Остановка из уведомления отменяет переподключение VPN.\nСтрогий частный DNS распознаётся при активном VPN.\nДлинные причины отказа импорта видны целиком.",
+    "notes": "Сборка для приёмки Android. Проверяем обновление, подключение VPN и импорт конфигураций.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.29.1+111/xash-0.29.1-arm64-v8a.apk",
-        "size": 55975709,
-        "sha256": "148ecfafd3687ca43550c4c137fb7b5c9f27d7f79ff10ebd8343a3d2cfd0061b"
+        "url": "../builds/0.29.2+112/xash-0.29.2-arm64-v8a.apk",
+        "size": 55992333,
+        "sha256": "814132a207a0ee9de027e5b84edaec1e0e4c01e129251ef43f33989489dae273"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.29.1+111/xash-0.29.1-armeabi-v7a.apk",
-        "size": 52872455,
-        "sha256": "22271450124e39852b79d99daa4b595d5fd2e7fe85272a6c1ff0521a4b8c5e62"
+        "url": "../builds/0.29.2+112/xash-0.29.2-armeabi-v7a.apk",
+        "size": 52890087,
+        "sha256": "731deebfe1bd2b1e76bd52ad84ba9a6d507a31a1753887e78603afa172a33df5"
       },
       "universal": {
-        "url": "../builds/0.29.1+111/xash-0.29.1-universal.apk",
-        "size": 166064072,
-        "sha256": "7c561610c69d72b696b956b08168670d32533c472db8a9f34550189e012729ff"
+        "url": "../builds/0.29.2+112/xash-0.29.2-universal.apk",
+        "size": 166098072,
+        "sha256": "4318c567098d7a37018e6ca25b26fde6dae2510e31129d69748a8d6b15a79c3a"
       },
       "x86_64": {
-        "url": "../builds/0.29.1+111/xash-0.29.1-x86_64.apk",
-        "size": 59878606,
-        "sha256": "a291b137de7d081f1497ba9127c9354eba2631df02aa63da924f5e4a9389b476"
+        "url": "../builds/0.29.2+112/xash-0.29.2-x86_64.apk",
+        "size": 59896222,
+        "sha256": "3425d67747414451fc6ac8d2bb95dff87ed7c3cc01de57fffff3939477987eb7"
       }
     }
   },
   "windows-x64": {
-    "version": "0.29.1",
-    "build": 111,
+    "version": "0.29.2",
+    "build": 112,
     "minBuild": 0,
-    "notes": "Длинные причины отказа импорта видны целиком.",
+    "notes": "Сборка для приёмки Windows. Проверяем обновление, подключение с сохранённым профилем и смену сервера.",
     "file": {
-      "url": "../builds/0.29.1+111/xash-setup-0.29.1.exe",
-      "size": 20420506,
-      "sha256": "90238068c849b7c0b2486f03165000a0d949452d1b625b95db9bf6463153643e"
+      "url": "../builds/0.29.2+112/xash-setup-0.29.2.exe",
+      "size": 20432112,
+      "sha256": "4f5a1a083990e476bd0b2d1af72d8b04b5a754f49d70af34aad4838ce543e3b1"
     }
   },
   "mirrors": {
