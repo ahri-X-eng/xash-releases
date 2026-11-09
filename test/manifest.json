@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-08T19:47:00Z",
-  "expires": "2027-02-06T19:47:00Z",
+  "published": "2026-11-09T18:01:53Z",
+  "expires": "2027-02-07T18:01:53Z",
   "android": {
     "version": "0.29.1",
-    "build": 110,
+    "build": 111,
     "minBuild": 0,
-    "notes": "Исправлена обработка некоторых конфигураций Xray и выбора серверов.\nИсправлен подсчёт записей журнала.",
+    "notes": "Остановка из уведомления отменяет переподключение VPN.\nСтрогий частный DNS распознаётся при активном VPN.\nДлинные причины отказа импорта видны целиком.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.29.1+110/xash-0.29.1-arm64-v8a.apk",
-        "size": 55975933,
-        "sha256": "7effa62785b3bdc7fef0d4f0eb0ad7a65e36e5be21937a9e094908446c412104"
+        "url": "../builds/0.29.1+111/xash-0.29.1-arm64-v8a.apk",
+        "size": 55975709,
+        "sha256": "148ecfafd3687ca43550c4c137fb7b5c9f27d7f79ff10ebd8343a3d2cfd0061b"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.29.1+110/xash-0.29.1-armeabi-v7a.apk",
-        "size": 52872679,
-        "sha256": "5fff20a98671c635ad826edb80d1914d909164daefa8f16e3502ed9d6fe35adc"
+        "url": "../builds/0.29.1+111/xash-0.29.1-armeabi-v7a.apk",
+        "size": 52872455,
+        "sha256": "22271450124e39852b79d99daa4b595d5fd2e7fe85272a6c1ff0521a4b8c5e62"
       },
       "universal": {
-        "url": "../builds/0.29.1+110/xash-0.29.1-universal.apk",
-        "size": 166064232,
-        "sha256": "ee3d487b40cd4afbdcd2724d6140851ec10c8498d803cc5992bfc9488e765769"
+        "url": "../builds/0.29.1+111/xash-0.29.1-universal.apk",
+        "size": 166064072,
+        "sha256": "7c561610c69d72b696b956b08168670d32533c472db8a9f34550189e012729ff"
       },
       "x86_64": {
-        "url": "../builds/0.29.1+110/xash-0.29.1-x86_64.apk",
-        "size": 59878766,
-        "sha256": "b70630454cd08ea3a1f47641595a0dabd4ae32f5b29c8b00352f1d25bca80091"
+        "url": "../builds/0.29.1+111/xash-0.29.1-x86_64.apk",
+        "size": 59878606,
+        "sha256": "a291b137de7d081f1497ba9127c9354eba2631df02aa63da924f5e4a9389b476"
       }
     }
   },
   "windows-x64": {
     "version": "0.29.1",
-    "build": 110,
+    "build": 111,
     "minBuild": 0,
-    "notes": "Исправлена обработка некоторых конфигураций Xray и выбора серверов.\nИсправлен подсчёт записей журнала.",
+    "notes": "Длинные причины отказа импорта видны целиком.",
     "file": {
-      "url": "../builds/0.29.1+110/xash-setup-0.29.1.exe",
-      "size": 20424401,
-      "sha256": "7cd2511eb4b0169a46e8e92ccc0e64c0f2fd45c21c7dda71a9f923896be561cf"
+      "url": "../builds/0.29.1+111/xash-setup-0.29.1.exe",
+      "size": 20420506,
+      "sha256": "90238068c849b7c0b2486f03165000a0d949452d1b625b95db9bf6463153643e"
     }
   },
   "mirrors": {
