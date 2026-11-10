@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-09T19:50:33Z",
-  "expires": "2027-02-07T19:50:33Z",
+  "published": "2026-11-10T16:07:49Z",
+  "expires": "2027-02-08T16:07:49Z",
   "android": {
     "version": "0.29.2",
-    "build": 112,
+    "build": 113,
     "minBuild": 0,
-    "notes": "Сборка для приёмки Android. Проверяем обновление, подключение VPN и импорт конфигураций.",
+    "notes": "Проверка штатного обновления с 0.29.2+112.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.29.2+112/xash-0.29.2-arm64-v8a.apk",
+        "url": "../builds/0.29.2+113/xash-0.29.2-arm64-v8a.apk",
         "size": 55992333,
-        "sha256": "814132a207a0ee9de027e5b84edaec1e0e4c01e129251ef43f33989489dae273"
+        "sha256": "0ac06408e0f8183212dcd5d3d4b8181e417cf80998562ab8debc819a7f598a35"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.29.2+112/xash-0.29.2-armeabi-v7a.apk",
+        "url": "../builds/0.29.2+113/xash-0.29.2-armeabi-v7a.apk",
         "size": 52890087,
-        "sha256": "731deebfe1bd2b1e76bd52ad84ba9a6d507a31a1753887e78603afa172a33df5"
+        "sha256": "8f1a2ed09a857a0fd165dd2e79fc824d765c34e5ddf2fa580420ac71f98cdb8b"
       },
       "universal": {
-        "url": "../builds/0.29.2+112/xash-0.29.2-universal.apk",
+        "url": "../builds/0.29.2+113/xash-0.29.2-universal.apk",
         "size": 166098072,
-        "sha256": "4318c567098d7a37018e6ca25b26fde6dae2510e31129d69748a8d6b15a79c3a"
+        "sha256": "9f7c0b9635a2a3218adc6a0672e3c7fef223d471b330b9fdf9fbd2d591522f0e"
       },
       "x86_64": {
-        "url": "../builds/0.29.2+112/xash-0.29.2-x86_64.apk",
+        "url": "../builds/0.29.2+113/xash-0.29.2-x86_64.apk",
         "size": 59896222,
-        "sha256": "3425d67747414451fc6ac8d2bb95dff87ed7c3cc01de57fffff3939477987eb7"
+        "sha256": "5c55077e59bf711b0f1ddea64d209b85febbbb9bf11305563fe8a6b5c1322a09"
       }
     }
   },
   "windows-x64": {
     "version": "0.29.2",
-    "build": 112,
+    "build": 113,
     "minBuild": 0,
-    "notes": "Сборка для приёмки Windows. Проверяем обновление, подключение с сохранённым профилем и смену сервера.",
+    "notes": "Проверка штатного обновления с 0.29.2+112.",
     "file": {
-      "url": "../builds/0.29.2+112/xash-setup-0.29.2.exe",
-      "size": 20432112,
-      "sha256": "4f5a1a083990e476bd0b2d1af72d8b04b5a754f49d70af34aad4838ce543e3b1"
+      "url": "../builds/0.29.2+113/xash-setup-0.29.2.exe",
+      "size": 20431404,
+      "sha256": "6e51d54d3695d378e54d3695bb5fadbed2482f5c6879bd83113c743427b8fed5"
     }
   },
   "mirrors": {
