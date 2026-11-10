@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-10T16:07:49Z",
-  "expires": "2027-02-08T16:07:49Z",
+  "published": "2026-11-10T17:49:24Z",
+  "expires": "2027-02-08T17:49:24Z",
   "android": {
-    "version": "0.29.2",
-    "build": 113,
+    "version": "0.30.0",
+    "build": 114,
     "minBuild": 0,
-    "notes": "Проверка штатного обновления с 0.29.2+112.",
+    "notes": "Обновили ядро Xray до 26.11.9. Исправили завершение каналов mux при прерывании и гонку при определении TLS в Vision.\nТестовая сборка для приёмки обновления с 0.29.2+113.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.29.2+113/xash-0.29.2-arm64-v8a.apk",
-        "size": 55992333,
-        "sha256": "0ac06408e0f8183212dcd5d3d4b8181e417cf80998562ab8debc819a7f598a35"
+        "url": "../builds/0.30.0+114/xash-0.30.0-arm64-v8a.apk",
+        "size": 56261257,
+        "sha256": "e916fe9e62bb54efbaab09dc7f046a0b0c562129d37dec4178d1d3712411569a"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.29.2+113/xash-0.29.2-armeabi-v7a.apk",
-        "size": 52890087,
-        "sha256": "8f1a2ed09a857a0fd165dd2e79fc824d765c34e5ddf2fa580420ac71f98cdb8b"
+        "url": "../builds/0.30.0+114/xash-0.30.0-armeabi-v7a.apk",
+        "size": 53158859,
+        "sha256": "873580c59fffcc687351ba2468961741544d2e6b2cfacdfe296b4e5fc4981b95"
       },
       "universal": {
-        "url": "../builds/0.29.2+113/xash-0.29.2-universal.apk",
-        "size": 166098072,
-        "sha256": "9f7c0b9635a2a3218adc6a0672e3c7fef223d471b330b9fdf9fbd2d591522f0e"
+        "url": "../builds/0.30.0+114/xash-0.30.0-universal.apk",
+        "size": 166911796,
+        "sha256": "60c095a54d06311360c58c6c8cdf47db87b06aceaa54d714bf7b256c66b9f11d"
       },
       "x86_64": {
-        "url": "../builds/0.29.2+113/xash-0.29.2-x86_64.apk",
-        "size": 59896222,
-        "sha256": "5c55077e59bf711b0f1ddea64d209b85febbbb9bf11305563fe8a6b5c1322a09"
+        "url": "../builds/0.30.0+114/xash-0.30.0-x86_64.apk",
+        "size": 60185658,
+        "sha256": "8c5316a7c92ff9b1c808abdb6c60d882653c623ec84c4e157d8ee09a8c9a96d5"
       }
     }
   },
   "windows-x64": {
-    "version": "0.29.2",
-    "build": 113,
+    "version": "0.30.0",
+    "build": 114,
     "minBuild": 0,
-    "notes": "Проверка штатного обновления с 0.29.2+112.",
+    "notes": "Обновили ядро Xray до 26.11.9. Исправили завершение каналов mux при прерывании и гонку при определении TLS в Vision.\nТестовая сборка для приёмки обновления с 0.29.2+113.",
     "file": {
-      "url": "../builds/0.29.2+113/xash-setup-0.29.2.exe",
-      "size": 20431404,
-      "sha256": "6e51d54d3695d378e54d3695bb5fadbed2482f5c6879bd83113c743427b8fed5"
+      "url": "../builds/0.30.0+114/xash-setup-0.30.0.exe",
+      "size": 20501418,
+      "sha256": "5fa0731d71c4f441850ec0cfd818719d358770d257db81c5de82046dadb33d9d"
     }
   },
   "mirrors": {

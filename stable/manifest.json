@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-11-10T16:07:49Z",
-  "expires": "2027-02-08T16:07:49Z",
+  "published": "2026-11-10T17:49:24Z",
+  "expires": "2027-02-08T17:49:24Z",
   "android": {
     "version": "0.28.0",
     "build": 103,
