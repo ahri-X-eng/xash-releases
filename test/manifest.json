@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-10T17:49:24Z",
-  "expires": "2027-02-08T17:49:24Z",
+  "published": "2026-11-11T17:27:17Z",
+  "expires": "2027-02-09T17:27:17Z",
   "android": {
-    "version": "0.30.0",
-    "build": 114,
+    "version": "1.0.0",
+    "build": 115,
     "minBuild": 0,
-    "notes": "Обновили ядро Xray до 26.11.9. Исправили завершение каналов mux при прерывании и гонку при определении TLS в Vision.\nТестовая сборка для приёмки обновления с 0.29.2+113.",
+    "notes": "Тестовый кандидат xASH 1.0.0. Добавлены WireGuard с одним peer на фиксированном IP, MASQUE CONNECT-IP через HTTP/2 и HTTP/3, XDRIVE через Google Drive и импорт Hysteria 2 с Gecko. Исправлены поздние DNS-ответы после смены выхода, применение фильтра приложений при подключении и устаревшие проверки VPN на Android.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.30.0+114/xash-0.30.0-arm64-v8a.apk",
-        "size": 56261257,
-        "sha256": "e916fe9e62bb54efbaab09dc7f046a0b0c562129d37dec4178d1d3712411569a"
+        "url": "../builds/1.0.0+115/xash-1.0.0-arm64-v8a.apk",
+        "size": 54992305,
+        "sha256": "7fc20e2288e4d9759be29d66b7b16ed068434a20de3ae560f8077a783554b404"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.30.0+114/xash-0.30.0-armeabi-v7a.apk",
-        "size": 53158859,
-        "sha256": "873580c59fffcc687351ba2468961741544d2e6b2cfacdfe296b4e5fc4981b95"
+        "url": "../builds/1.0.0+115/xash-1.0.0-armeabi-v7a.apk",
+        "size": 51846123,
+        "sha256": "c1a1daf9f84743e702c6ac40a61a7e48ce7f12578f871a9ac2abec702f3f448d"
       },
       "universal": {
-        "url": "../builds/0.30.0+114/xash-0.30.0-universal.apk",
-        "size": 166911796,
-        "sha256": "60c095a54d06311360c58c6c8cdf47db87b06aceaa54d714bf7b256c66b9f11d"
+        "url": "../builds/1.0.0+115/xash-1.0.0-universal.apk",
+        "size": 162871132,
+        "sha256": "2745e1483086a501a3b065d72ad33e16580e13a3d45505585094093d46bb3fe4"
       },
       "x86_64": {
-        "url": "../builds/0.30.0+114/xash-0.30.0-x86_64.apk",
-        "size": 60185658,
-        "sha256": "8c5316a7c92ff9b1c808abdb6c60d882653c623ec84c4e157d8ee09a8c9a96d5"
+        "url": "../builds/1.0.0+115/xash-1.0.0-x86_64.apk",
+        "size": 58766434,
+        "sha256": "95bcfbde187a0bf9a4d80a85192fed7829fe19379e56a0fb030356ded54d55b7"
       }
     }
   },
   "windows-x64": {
-    "version": "0.30.0",
-    "build": 114,
+    "version": "1.0.0",
+    "build": 115,
     "minBuild": 0,
-    "notes": "Обновили ядро Xray до 26.11.9. Исправили завершение каналов mux при прерывании и гонку при определении TLS в Vision.\nТестовая сборка для приёмки обновления с 0.29.2+113.",
+    "notes": "Тестовый кандидат xASH 1.0.0. Добавлены WireGuard с одним peer на фиксированном IP, MASQUE CONNECT-IP через HTTP/2 и HTTP/3, XDRIVE через Google Drive и импорт Hysteria 2 с Gecko. Исправлены поздние DNS-ответы после смены выхода, применение фильтра приложений при подключении и восстановление свёрнутого окна Windows при перезапуске интерфейса.",
     "file": {
-      "url": "../builds/0.30.0+114/xash-setup-0.30.0.exe",
-      "size": 20501418,
-      "sha256": "5fa0731d71c4f441850ec0cfd818719d358770d257db81c5de82046dadb33d9d"
+      "url": "../builds/1.0.0+115/xash-setup-1.0.0.exe",
+      "size": 20534598,
+      "sha256": "aa8923953cd8041a6f1f645878dda0152e151f00e1554dc53ffa6c26df3dd96b"
     }
   },
   "mirrors": {
