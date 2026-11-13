@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-13T12:14:03Z",
-  "expires": "2027-02-11T12:14:03Z",
+  "published": "2026-11-13T18:12:47Z",
+  "expires": "2027-02-11T18:12:47Z",
   "android": {
-    "version": "1.1.1",
-    "build": 118,
+    "version": "1.1.2",
+    "build": 2119,
     "minBuild": 0,
-    "notes": "В «Моих правилах» можно редактировать импортированные наборы: менять название, условия и действия, добавлять, удалять и переставлять правила.\nДобавили импорт наборов правил Xray из JSON. Для правила с доменами и IP можно выбрать, должны ли совпасть оба условия или достаточно одного.",
+    "notes": "На Android исправили подключение к WireGuard-пирам с локальными именами .local. Приложение разрешает такие имена через mDNS на выбранной физической сети. Диагностика различает ошибку исключения сокета из VPN и ошибку его привязки к сети.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.1.1+118/xash-1.1.1-arm64-v8a.apk",
+        "url": "../builds/1.1.2+2119/xash-1.1.2-arm64-v8a.apk",
         "size": 55352141,
-        "sha256": "c5b5a9e4a4477864da3bcf2f728a9a8810a79f50d179262eec7b7b191f1d3e51"
+        "sha256": "712ff50df1bf94374e501fd0b74b7a0a3a7a31fa4219b5b716cf6f7f08509e98"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.1.1+118/xash-1.1.1-armeabi-v7a.apk",
+        "url": "../builds/1.1.2+2119/xash-1.1.2-armeabi-v7a.apk",
         "size": 52317935,
-        "sha256": "5299db2ce5abed8e2aa02c5f55cef6e88ece577d9dd72d23a810891ed442267f"
+        "sha256": "2343f1af92d3dd33656ff2e4133af99fe73eb81617def3f3f8bab75e0ef7575c"
       },
       "universal": {
-        "url": "../builds/1.1.1+118/xash-1.1.1-universal.apk",
+        "url": "../builds/1.1.2+2119/xash-1.1.2-universal.apk",
         "size": 164134040,
-        "sha256": "1e14700e6b97f91269ae6bf7cd0bae892b16c9b1188e28064828197f38e4ba26"
+        "sha256": "a68772a0f259d8bd81e522b312550566eb73ae4960fb9308ed3770bf593c91aa"
       },
       "x86_64": {
-        "url": "../builds/1.1.1+118/xash-1.1.1-x86_64.apk",
+        "url": "../builds/1.1.2+2119/xash-1.1.2-x86_64.apk",
         "size": 59193758,
-        "sha256": "e3cc72c3e33b0faa0fda1e79b6a2724d62c6aa7ab8306ce17661dc0f57b05881"
+        "sha256": "eef89d5645f85bc98da74307244bb2e6bb7b5bc6087983542033a93e022300dd"
       }
     }
   },
