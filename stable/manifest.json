@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "stable",
-  "published": "2026-11-14T08:51:11Z",
-  "expires": "2027-02-12T08:51:11Z",
+  "published": "2026-11-14T09:27:45Z",
+  "expires": "2027-02-12T09:27:45Z",
   "android": {
-    "version": "0.28.0",
-    "build": 103,
+    "version": "1.1.2",
+    "build": 119,
     "minBuild": 0,
-    "notes": "Обновлено ядро Xray-core до версии 26.10.31. MPTCP теперь отключён по умолчанию из-за уязвимости Linux IPv4 MPTCP. Также обновлены сетевые зависимости.",
+    "notes": "На Android исправили подключение к WireGuard-пирам с локальными именами .local. Приложение разрешает такие имена через mDNS на выбранной физической сети. Диагностика различает ошибку исключения сокета из VPN и ошибку его привязки к сети.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-arm64-v8a.apk",
-        "size": 55841509,
-        "sha256": "955889f67b798f6a588130c4cd1235e8283cd7455b0e3147a5b416e7f27b1832"
+        "url": "../builds/1.1.2+119/xash-1.1.2-arm64-v8a.apk",
+        "size": 55352141,
+        "sha256": "6950c203fd888bd1c16a7a33f5523118ee38f84b7810c1cc7acd689cd595e2a3"
       },
       "armeabi-v7a": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-armeabi-v7a.apk",
-        "size": 52689503,
-        "sha256": "44d5c672549c3b281a750e84f2cb4b6d75dc7feb7def9b701107bd2c2a2bee3d"
+        "url": "../builds/1.1.2+119/xash-1.1.2-armeabi-v7a.apk",
+        "size": 52317935,
+        "sha256": "eb2e857ff9cb61548622aaf8c425a6658630b8a0a4c6f103effc331aae595e20"
       },
       "universal": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-universal.apk",
-        "size": 165536336,
-        "sha256": "c12cb4026f1a54f8e4b6327e5976cdbbd374f808eae15e6757cebae0ee8b8070"
+        "url": "../builds/1.1.2+119/xash-1.1.2-universal.apk",
+        "size": 164134040,
+        "sha256": "a226116b334ff9a4f536a2e5bf73b5d30f9b96377f130b8f4b81da57e6003808"
       },
       "x86_64": {
-        "url": "../builds/0.28.0+103/xash-0.28.0-x86_64.apk",
-        "size": 59678550,
-        "sha256": "671f2ec1cbdeb4cc566ceebba4dee77ea9f8aa47a1c9331c1b1de2ffe80b0443"
+        "url": "../builds/1.1.2+119/xash-1.1.2-x86_64.apk",
+        "size": 59193758,
+        "sha256": "104a07ea9e325187c4a80771026934fca9281b08e0a48cce293ed849525c0238"
       }
     }
   },
