@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-14T11:13:49Z",
-  "expires": "2027-02-12T11:13:49Z",
+  "published": "2026-11-16T20:07:45Z",
+  "expires": "2027-02-14T20:07:45Z",
   "android": {
-    "version": "1.1.4",
-    "build": 121,
+    "version": "1.2.0",
+    "build": 122,
     "minBuild": 0,
-    "notes": "Новый логотип xASH: пепельные крылья и плавная X на светлой подложке. Обновлена иконка приложения Android.",
+    "notes": "Обновлён мобильный интерфейс: главный экран, настройки, профили, приложения и правила оформлены в едином стиле. Привычное расположение элементов и действия сохранены. Доработаны светлая и тёмная темы, читаемость подписей, крупный шрифт и работа с клавиатурой.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.1.4+121/xash-1.1.4-arm64-v8a.apk",
-        "size": 55353873,
-        "sha256": "fd525ac007134f8b26da0a1c8d0f6c94daeb52e8e1916b12e5d4d4514b3480a1"
+        "url": "../builds/1.2.0+122/xash-1.2.0-arm64-v8a.apk",
+        "size": 55829624,
+        "sha256": "4c20da8aa177a88cfd6617187e088ba5907255345c4db6e1304eec1253b2c8bb"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.1.4+121/xash-1.1.4-armeabi-v7a.apk",
-        "size": 52319635,
-        "sha256": "e3ce7c48edf40b7fe2f5aab42aa0b9d84f0a4541db3c9a358f663e86497327a6"
+        "url": "../builds/1.2.0+122/xash-1.2.0-armeabi-v7a.apk",
+        "size": 52811802,
+        "sha256": "de588bf65628071b086afff0c8b58b5a6fdc98672833824ee0431331bd7af316"
       },
       "universal": {
-        "url": "../builds/1.1.4+121/xash-1.1.4-universal.apk",
-        "size": 164135740,
-        "sha256": "d5178060ddcc881053237cf3181e34731c19bd2fdac969d91027d534ab2e9bc8"
+        "url": "../builds/1.2.0+122/xash-1.2.0-universal.apk",
+        "size": 164758915,
+        "sha256": "a8e164ac6b0c44bdfc283a40d73f5e2af41310a752b8b65ae0d18baf3d7ffe48"
       },
       "x86_64": {
-        "url": "../builds/1.1.4+121/xash-1.1.4-x86_64.apk",
-        "size": 59195458,
-        "sha256": "272575707597bba170e5e17147bafe4187179537faf0596d3c10468abb14b596"
+        "url": "../builds/1.2.0+122/xash-1.2.0-x86_64.apk",
+        "size": 59671177,
+        "sha256": "0e2cad33d6155b401a25f7f2951b511b856a760de096f55647773c5093cc67c0"
       }
     }
   },
