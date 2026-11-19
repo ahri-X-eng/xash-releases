@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-19T15:00:10Z",
-  "expires": "2027-02-17T15:00:10Z",
+  "published": "2026-11-19T16:43:45Z",
+  "expires": "2027-02-17T16:43:45Z",
   "android": {
-    "version": "1.3.0",
-    "build": 124,
+    "version": "1.3.1",
+    "build": 125,
     "minBuild": 0,
-    "notes": "На Android добавлена поддержка XDRIVE через локальную папку на сервере. Для теста нужен профиль с защищённым HTTPS-доступом к этой папке.",
+    "notes": "Добавлена поддержка штатных профилей XDRIVE template и S3 по HTTPS. Профили template импортируются в формате Xray JSON.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.3.0+124/xash-1.3.0-arm64-v8a.apk",
-        "size": 55849740,
-        "sha256": "25ad3e1805c9d7c07ca7a60440dec0ae325b5498927ce89b2ad26cbcb9e1a9bf"
+        "url": "../builds/1.3.1+125/xash-1.3.1-arm64-v8a.apk",
+        "size": 55882752,
+        "sha256": "7b1595a54af1fc25b8e8c92c29eb462c759c1f66e7860cb4c027f3711964aa38"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.3.0+124/xash-1.3.0-armeabi-v7a.apk",
-        "size": 52833494,
-        "sha256": "8e312287e108092fb5b40bb70f45ab2ec8f7403e860cb8915bb6448d71c5640a"
+        "url": "../builds/1.3.1+125/xash-1.3.1-armeabi-v7a.apk",
+        "size": 52869066,
+        "sha256": "61676d87b80b65db9882c9093b67d4af95ef30949b201e653abf16b62eb50b9f"
       },
       "universal": {
-        "url": "../builds/1.3.0+124/xash-1.3.0-universal.apk",
-        "size": 164813943,
-        "sha256": "68e36c6f0d1d5ecba18e1990f88c6a5bf0ec862220543c41e3b00da8de419d91"
+        "url": "../builds/1.3.1+125/xash-1.3.1-universal.apk",
+        "size": 164881675,
+        "sha256": "e109c94ab3a11ee7929532d9b5aad938153572efce43f98c2112be60e58d5d7d"
       },
       "x86_64": {
-        "url": "../builds/1.3.0+124/xash-1.3.0-x86_64.apk",
-        "size": 59693437,
-        "sha256": "4d3d870a1b8fefa58a148f3fbb44580c2bd9c3f3d8e67a7a47d7e59654df4e29"
+        "url": "../builds/1.3.1+125/xash-1.3.1-x86_64.apk",
+        "size": 59728401,
+        "sha256": "0b8c8a73cce4a25b7e80cc2d01551d5d6425fb4a53949d0c087ee469f7ee0a77"
       }
     }
   },
   "windows-x64": {
-    "version": "1.3.0",
-    "build": 124,
+    "version": "1.3.1",
+    "build": 125,
     "minBuild": 0,
-    "notes": "Поддержка XDRIVE через локальную папку на сервере. Windows использует тот же профиль с защищённым HTTPS-доступом, что и Android.",
+    "notes": "Добавлена поддержка штатных профилей XDRIVE template и S3 по HTTPS. Профили template импортируются в формате Xray JSON.",
     "file": {
-      "url": "../builds/1.3.0+124/xash-setup-1.3.0.exe",
-      "size": 21123437,
-      "sha256": "8681929dd1d0ab3cf2089c7e96f77bedefe344a869c9103dcd74c765c7202c45"
+      "url": "../builds/1.3.1+125/xash-setup-1.3.1.exe",
+      "size": 21151470,
+      "sha256": "672b2f585c2e28d647d0b3c43714682e3e8d6853b67ffe4174d1c163d8ee5f98"
     }
   },
   "mirrors": {
