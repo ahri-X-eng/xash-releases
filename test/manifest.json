@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-20T19:17:49Z",
-  "expires": "2027-02-18T19:17:49Z",
+  "published": "2026-11-20T19:50:02Z",
+  "expires": "2027-02-18T19:50:02Z",
   "android": {
-    "version": "1.6.1",
-    "build": 130,
+    "version": "1.6.2",
+    "build": 131,
     "minBuild": 0,
-    "notes": "Теперь уведомления продавца могут появляться в шторке Android после закрытия Connect. Разрешите уведомления в профиле подписки и включите «Уведомления, когда xASH закрыт» в настройках сообщений. Connect проверяет входящие примерно раз в 15 минут при наличии сети. В режиме энергосбережения уведомление может прийти позже.",
+    "notes": "Исправлена фоновая проверка уведомлений продавца при активном VPN. На некоторых телефонах Android откладывал проверку даже при работающем Wi-Fi. Чтобы получать сообщения после закрытия Connect, разрешите уведомления в профиле подписки и включите «Уведомления, когда xASH закрыт».",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.6.1+130/xash-1.6.1-arm64-v8a.apk",
+        "url": "../builds/1.6.2+131/xash-1.6.2-arm64-v8a.apk",
         "size": 56079584,
-        "sha256": "1dafa6b2235ac8a35609081a6777bf0520bb27c61ef3f4db0d1e80e9e8b1797f"
+        "sha256": "f7a97044e1e207e43bbf5ab98ebdad67492b3ba3b3656f64e91c246f42ef3bb7"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.6.1+130/xash-1.6.1-armeabi-v7a.apk",
+        "url": "../builds/1.6.2+131/xash-1.6.2-armeabi-v7a.apk",
         "size": 53000346,
-        "sha256": "abb1b0d621358a6735db6e3d0a32a0f49cebac4d6442f2d02f89e19097d87c61"
+        "sha256": "a985ec055b29ad8fcb1815854ab4d4444fe30bba0dad52ae1366fff61e41f202"
       },
       "universal": {
-        "url": "../builds/1.6.1+130/xash-1.6.1-universal.apk",
+        "url": "../builds/1.6.2+131/xash-1.6.2-universal.apk",
         "size": 165406155,
-        "sha256": "f2a7819b550e029c724eea84a20a8a58fca720c59b167f9afefdbb053587a523"
+        "sha256": "cc3911afbfcf2b8b027fba374ac7f5d330ae30535cd4ecc235e5212f3819fdaa"
       },
       "x86_64": {
-        "url": "../builds/1.6.1+130/xash-1.6.1-x86_64.apk",
+        "url": "../builds/1.6.2+131/xash-1.6.2-x86_64.apk",
         "size": 59925201,
-        "sha256": "13dd9a4e7f51d2e126f4ddfa3c658f6b00b807495b972d2a84d6c8d2f0675b3c"
+        "sha256": "eee6aefe5599147c0bc8ba23d8445840c1e9ac5f2d5124c246725b443e98d4bf"
       }
     }
   },
