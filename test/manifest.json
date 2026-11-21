@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-21T19:00:38Z",
-  "expires": "2027-02-19T19:00:38Z",
+  "published": "2026-11-21T19:15:52Z",
+  "expires": "2027-02-19T19:15:52Z",
   "android": {
-    "version": "1.8.1",
-    "build": 136,
+    "version": "1.8.2",
+    "build": 137,
     "minBuild": 0,
-    "notes": "В карточке проверенного продавца оставили больше места для названия с галочкой. Если места мало, кнопки переходят на следующую строку.",
+    "notes": "В карточке подписки название с галочкой и кнопки снова в одной строке. Если места мало, шеврон профиля скрывается. Название по-прежнему открывает профиль.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.8.1+136/xash-1.8.1-arm64-v8a.apk",
+        "url": "../builds/1.8.2+137/xash-1.8.2-arm64-v8a.apk",
         "size": 56079684,
-        "sha256": "a5b1bffe61f420abbf4c737dee357f0bb888f66fc9181d48333bdacc6c5aeee1"
+        "sha256": "fc20ebcf0eaa52d0f1e45c96aa1f739bb7a6a935dc170c40559eb492f659bb69"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.8.1+136/xash-1.8.1-armeabi-v7a.apk",
+        "url": "../builds/1.8.2+137/xash-1.8.2-armeabi-v7a.apk",
         "size": 53049598,
-        "sha256": "71af294e2aa961a93087d0a3134eeb633f159e1abcb4299121247d65ad4ef008"
+        "sha256": "c813a13fa912316a75391f919a32d0f5272dbab249a447a73a28c595e549dd4c"
       },
       "universal": {
-        "url": "../builds/1.8.1+136/xash-1.8.1-universal.apk",
+        "url": "../builds/1.8.2+137/xash-1.8.2-universal.apk",
         "size": 165455407,
-        "sha256": "dc5c72ce38df0f684ea53453cd20cbb59b96cfd75bcb6d8207d3b2b82d396cf5"
+        "sha256": "e8a64a558ce1620a3056f59a630e8c63ac58b0f071159fa30d38d73b740ea032"
       },
       "x86_64": {
-        "url": "../builds/1.8.1+136/xash-1.8.1-x86_64.apk",
+        "url": "../builds/1.8.2+137/xash-1.8.2-x86_64.apk",
         "size": 59925301,
-        "sha256": "9264068be72fd8d77526affed3a29d93a0d0ca1f6dbb3088c950a3fe088c8162"
+        "sha256": "41f0d1d36a58e2d74dfa6a3b31379c4e7a80fa4d2ddcc543be78a58f24a38959"
       }
     }
   },
