@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-21T21:07:13Z",
-  "expires": "2027-02-19T21:07:13Z",
+  "published": "2026-11-21T22:03:22Z",
+  "expires": "2027-02-19T22:03:22Z",
   "android": {
-    "version": "1.9.1",
-    "build": 139,
+    "version": "1.9.2",
+    "build": 140,
     "minBuild": 0,
-    "notes": "В заголовке системного уведомления от продавца теперь только название провайдера. Заголовок рассылки и текст отображаются в теле уведомления.",
+    "notes": "Официальные уведомления xASH теперь проверяются и при закрытом приложении. Новости и предложения можно отключить в настройках Connect.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.9.1+139/xash-1.9.1-arm64-v8a.apk",
-        "size": 56079576,
-        "sha256": "ce0c97330bb3b054bb49a0c87df4d15b136fa2768669bbebdb84ba506d385a01"
+        "url": "../builds/1.9.2+140/xash-1.9.2-arm64-v8a.apk",
+        "size": 56081300,
+        "sha256": "44c90338e061acf5596e882e088708210055b605b76e64a3abac96f54c9860c0"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.9.1+139/xash-1.9.1-armeabi-v7a.apk",
-        "size": 53033106,
-        "sha256": "c6136549dfab3cdce0c50ef9091ad8449df78d73af96bdb663bf19fa71448188"
+        "url": "../builds/1.9.2+140/xash-1.9.2-armeabi-v7a.apk",
+        "size": 53051398,
+        "sha256": "7dbb509b2d30a62ddbf12c9390751dd6abedf991147405fedb22150a59e4f53c"
       },
       "universal": {
-        "url": "../builds/1.9.1+139/xash-1.9.1-universal.apk",
-        "size": 165438915,
-        "sha256": "d444d0592eea9ba80ad3110c9359dbcf1398f254242848639c5d2295423c370e"
+        "url": "../builds/1.9.2+140/xash-1.9.2-universal.apk",
+        "size": 165457087,
+        "sha256": "dfb74f3a93c401498d52a7b2427a8a9023d10d461d9a04bc238740a258ab8188"
       },
       "x86_64": {
-        "url": "../builds/1.9.1+139/xash-1.9.1-x86_64.apk",
-        "size": 59925193,
-        "sha256": "85b436587818ca02a1045d19ec81acdb1be8525782ad0a7c5bf0268f14a49599"
+        "url": "../builds/1.9.2+140/xash-1.9.2-x86_64.apk",
+        "size": 59926981,
+        "sha256": "b200107c54ad8c3ac955d26e92bd3b5dc7b8e1f6710b7171141a80f5c6f8c12e"
       }
     }
   },
   "windows-x64": {
-    "version": "1.9.1",
-    "build": 139,
+    "version": "1.9.2",
+    "build": 140,
     "minBuild": 0,
-    "notes": "В заголовке системного уведомления от продавца теперь только название провайдера. Заголовок рассылки и текст отображаются в теле уведомления.",
+    "notes": "Обновили проверку подписи официальных уведомлений xASH. Их можно увидеть в колокольчике и в системных уведомлениях, пока Connect работает в трее.",
     "file": {
-      "url": "../builds/1.9.1+139/xash-setup-1.9.1.exe",
-      "size": 21207189,
-      "sha256": "a9ee9e08d3c3fd7f67e69505db41c95fe9bd2bde6a2b39b6e0accadd4db17385"
+      "url": "../builds/1.9.2+140/xash-setup-1.9.2.exe",
+      "size": 21210340,
+      "sha256": "4ecd2b277b7500e135cac69579e40216c0e045d8337a5f81cd62254c9051e1f6"
     }
   },
   "mirrors": {
