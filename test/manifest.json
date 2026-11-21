@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-21T16:34:23Z",
-  "expires": "2027-02-19T16:34:23Z",
+  "published": "2026-11-21T19:00:38Z",
+  "expires": "2027-02-19T19:00:38Z",
   "android": {
-    "version": "1.8.0",
-    "build": 135,
+    "version": "1.8.1",
+    "build": 136,
     "minBuild": 0,
-    "notes": "В списке подписок и в профиле появился значок «Проверен xASH». Подписка отмеченного администраторами провайдера выделяется цветом. Отметка обновляется при проверке подписки и видна даже при отключённых уведомлениях продавца.",
+    "notes": "В карточке проверенного продавца оставили больше места для названия с галочкой. Если места мало, кнопки переходят на следующую строку.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.8.0+135/xash-1.8.0-arm64-v8a.apk",
+        "url": "../builds/1.8.1+136/xash-1.8.1-arm64-v8a.apk",
         "size": 56079684,
-        "sha256": "ed260202ef09d762aa2e610a7177fbbe39aee93844d129debdb7649b73e94426"
+        "sha256": "a5b1bffe61f420abbf4c737dee357f0bb888f66fc9181d48333bdacc6c5aeee1"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.8.0+135/xash-1.8.0-armeabi-v7a.apk",
+        "url": "../builds/1.8.1+136/xash-1.8.1-armeabi-v7a.apk",
         "size": 53049598,
-        "sha256": "b70bcf3ede3e78ba481ecc49581994833d83b4960f0221a52a6500e16216abe4"
+        "sha256": "71af294e2aa961a93087d0a3134eeb633f159e1abcb4299121247d65ad4ef008"
       },
       "universal": {
-        "url": "../builds/1.8.0+135/xash-1.8.0-universal.apk",
+        "url": "../builds/1.8.1+136/xash-1.8.1-universal.apk",
         "size": 165455407,
-        "sha256": "3eb7118a30e1cbb852f461dad9b6363cae77b917de46c5e64cf8afa4a1a5be55"
+        "sha256": "dc5c72ce38df0f684ea53453cd20cbb59b96cfd75bcb6d8207d3b2b82d396cf5"
       },
       "x86_64": {
-        "url": "../builds/1.8.0+135/xash-1.8.0-x86_64.apk",
+        "url": "../builds/1.8.1+136/xash-1.8.1-x86_64.apk",
         "size": 59925301,
-        "sha256": "c99ee80f3315a01a01f515d25a26a12287bcf19c9e3a3b00d4b09f97da629691"
+        "sha256": "9264068be72fd8d77526affed3a29d93a0d0ca1f6dbb3088c950a3fe088c8162"
       }
     }
   },
