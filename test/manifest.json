@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-22T14:33:57Z",
-  "expires": "2027-02-20T14:33:57Z",
+  "published": "2026-11-22T14:51:42Z",
+  "expires": "2027-02-20T14:51:42Z",
   "android": {
     "version": "1.10.1",
-    "build": 146,
+    "build": 147,
     "minBuild": 0,
     "notes": "После неудачной смены сервера и холодного запуска автопинг проверяет всю подписку, через которую работает VPN.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.10.1+146/xash-1.10.1-arm64-v8a.apk",
+        "url": "../builds/1.10.1+147/xash-1.10.1-arm64-v8a.apk",
         "size": 56141024,
-        "sha256": "cc9d4c4981b30de6e91bd9497fa7a00268e415b304d52c27f2ed83164067af5c"
+        "sha256": "25e6fef59844ef961360c3a16846e320b1374b12a71b989d10b84cd5a95b2b95"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.10.1+146/xash-1.10.1-armeabi-v7a.apk",
+        "url": "../builds/1.10.1+147/xash-1.10.1-armeabi-v7a.apk",
         "size": 53143890,
-        "sha256": "dee06c5bf4785201376e1c9de74ebedaf449efe2e3d05361f890938e90c431ad"
+        "sha256": "bf0b41d4825ed704aaff59af99b29ec8d2bf65874b04cccf3a8afc2b9bd6316d"
       },
       "universal": {
-        "url": "../builds/1.10.1+146/xash-1.10.1-universal.apk",
+        "url": "../builds/1.10.1+147/xash-1.10.1-universal.apk",
         "size": 165680651,
-        "sha256": "39f0f49f1d7811ccb3f17d23dc1d04a698230a0b98e6f9a6cfc670924dfd8390"
+        "sha256": "32d89378a8af34df407a152e65511fa91a51d952ec7485120d4cee0bdb179909"
       },
       "x86_64": {
-        "url": "../builds/1.10.1+146/xash-1.10.1-x86_64.apk",
+        "url": "../builds/1.10.1+147/xash-1.10.1-x86_64.apk",
         "size": 59986705,
-        "sha256": "a27cb83410b9e3770c44e895c9d9fd0b828fde2407bb1e534b6be86a51007e53"
+        "sha256": "e344ab1b48fc5429e5336fa22c6bc94a33fa49904bbaeb30f50453d52091860b"
       }
     }
   },
