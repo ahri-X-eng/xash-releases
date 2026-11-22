@@ -1,33 +1,33 @@
 {
   "schema": 1,
   "channel": "test",
-  "published": "2026-11-22T13:28:38Z",
-  "expires": "2027-02-20T13:28:38Z",
+  "published": "2026-11-22T14:33:57Z",
+  "expires": "2027-02-20T14:33:57Z",
   "android": {
-    "version": "1.10.0",
-    "build": 144,
+    "version": "1.10.1",
+    "build": 146,
     "minBuild": 0,
-    "notes": "При открытии с активным VPN автопинг проверяет серверы подключённой подписки и учитывает настройки автопинга.\n«Продлить подписку» и «Поддержка» собраны в отдельной карточке профиля.",
+    "notes": "После неудачной смены сервера и холодного запуска автопинг проверяет всю подписку, через которую работает VPN.",
     "files": {
       "arm64-v8a": {
-        "url": "../builds/1.10.0+144/xash-1.10.0-arm64-v8a.apk",
+        "url": "../builds/1.10.1+146/xash-1.10.1-arm64-v8a.apk",
         "size": 56141024,
-        "sha256": "fef09e6dc6b7f43b992859e569430437f6caef64ebc44be4dba1a7a436b61442"
+        "sha256": "cc9d4c4981b30de6e91bd9497fa7a00268e415b304d52c27f2ed83164067af5c"
       },
       "armeabi-v7a": {
-        "url": "../builds/1.10.0+144/xash-1.10.0-armeabi-v7a.apk",
+        "url": "../builds/1.10.1+146/xash-1.10.1-armeabi-v7a.apk",
         "size": 53143890,
-        "sha256": "5de5ed9a444876bad63b5daa84a9702829ef948ae76dd13eff7f0f85927be8bb"
+        "sha256": "dee06c5bf4785201376e1c9de74ebedaf449efe2e3d05361f890938e90c431ad"
       },
       "universal": {
-        "url": "../builds/1.10.0+144/xash-1.10.0-universal.apk",
+        "url": "../builds/1.10.1+146/xash-1.10.1-universal.apk",
         "size": 165680651,
-        "sha256": "8d1f952df0d8d2047c0ec5a668d3a7f5ec5448ab89fe33f64d2a3f67f7e5d88d"
+        "sha256": "39f0f49f1d7811ccb3f17d23dc1d04a698230a0b98e6f9a6cfc670924dfd8390"
       },
       "x86_64": {
-        "url": "../builds/1.10.0+144/xash-1.10.0-x86_64.apk",
+        "url": "../builds/1.10.1+146/xash-1.10.1-x86_64.apk",
         "size": 59986705,
-        "sha256": "5c46cbac2f5e029ab27dc76c348094846c31de79011caceb1a8248882122187c"
+        "sha256": "a27cb83410b9e3770c44e895c9d9fd0b828fde2407bb1e534b6be86a51007e53"
       }
     }
   },
